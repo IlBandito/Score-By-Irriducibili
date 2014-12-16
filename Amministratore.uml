@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fw7UYG5DEeSq9aBRi04loQ" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fw7UYW5DEeSq9aBRi04loQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_fx0sQG5DEeSq9aBRi04loQ" name="Activity1"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ikDjUG5DEeSq9aBRi04loQ" name=""/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_lNC-0G5DEeSq9aBRi04loQ" name="Sistema interazione amministratore" useCase="_tprz8G5DEeSq9aBRi04loQ _CV1S4G5EEeSq9aBRi04loQ _GfugcG5EEeSq9aBRi04loQ">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tprz8G5DEeSq9aBRi04loQ" name="Carica informazioni del sistema" subject="_lNC-0G5DEeSq9aBRi04loQ">
+      <include xmi:type="uml:Include" xmi:id="_O1sF0G5EEeSq9aBRi04loQ" addition="_CV1S4G5EEeSq9aBRi04loQ"/>
+      <include xmi:type="uml:Include" xmi:id="_PhgC8G5EEeSq9aBRi04loQ" addition="_GfugcG5EEeSq9aBRi04loQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_CV1S4G5EEeSq9aBRi04loQ" name="carica dati aziende affiliate" subject="_lNC-0G5DEeSq9aBRi04loQ">
+      <include xmi:type="uml:Include" xmi:id="_Zsy80G5FEeSq9aBRi04loQ" addition="_CV1S4G5EEeSq9aBRi04loQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_GfugcG5EEeSq9aBRi04loQ" name="carica tragitti convenzionati" subject="_lNC-0G5DEeSq9aBRi04loQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rO2wQG5DEeSq9aBRi04loQ" name="Amministratore"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w6T3MG5DEeSq9aBRi04loQ" name="" memberEnd="_w6T3MW5DEeSq9aBRi04loQ _w6T3NG5DEeSq9aBRi04loQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w6T3MW5DEeSq9aBRi04loQ" name="amministratore" type="_rO2wQG5DEeSq9aBRi04loQ" association="_w6T3MG5DEeSq9aBRi04loQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w6T3Mm5DEeSq9aBRi04loQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w6T3M25DEeSq9aBRi04loQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w6T3NG5DEeSq9aBRi04loQ" name="usecase1" type="_tprz8G5DEeSq9aBRi04loQ" association="_w6T3MG5DEeSq9aBRi04loQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w6T3NW5DEeSq9aBRi04loQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w6T3Nm5DEeSq9aBRi04loQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_acD2kG5FEeSq9aBRi04loQ" name="" memberEnd="_acD2kW5FEeSq9aBRi04loQ _acD2lG5FEeSq9aBRi04loQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_acD2kW5FEeSq9aBRi04loQ" name="amministratore" type="_rO2wQG5DEeSq9aBRi04loQ" association="_acD2kG5FEeSq9aBRi04loQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_acD2km5FEeSq9aBRi04loQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_acD2k25FEeSq9aBRi04loQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_acD2lG5FEeSq9aBRi04loQ" name="carica dati aziende affiliate" type="_CV1S4G5EEeSq9aBRi04loQ" association="_acD2kG5FEeSq9aBRi04loQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_acD2lW5FEeSq9aBRi04loQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_acD2lm5FEeSq9aBRi04loQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
