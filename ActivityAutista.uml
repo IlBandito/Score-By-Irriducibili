@@ -3,7 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_EcT0QXASEeSVe6UPgy2C3g">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_EdWWEHASEeSVe6UPgy2C3g" name="Interazione Autista-Sistema" node="_Jz7MYHDGEeS5EtN3POyIHg _N_QkYHDGEeS5EtN3POyIHg _OQZXsHDGEeS5EtN3POyIHg _OsQ0UHDGEeS5EtN3POyIHg _sQo4MHDGEeS5EtN3POyIHg">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_EdWWEHASEeSVe6UPgy2C3g" name="Interazione Autista-Sistema" node="_Jz7MYHDGEeS5EtN3POyIHg _N_QkYHDGEeS5EtN3POyIHg _OQZXsHDGEeS5EtN3POyIHg _OsQ0UHDGEeS5EtN3POyIHg _sQo4MHDGEeS5EtN3POyIHg _TG48YHsVEeS2JKLlrRPttw _TzEs8HsVEeS2JKLlrRPttw _W_Of4HsVEeS2JKLlrRPttw">
     <ownedRule xmi:type="uml:Constraint" xmi:id="_MmcXUHDGEeS5EtN3POyIHg" name="Constraint1">
       <specification xmi:type="uml:LiteralString" xmi:id="_MmcXUXDGEeS5EtN3POyIHg" name="constraintSpec"/>
     </ownedRule>
@@ -20,6 +20,9 @@
       </localPrecondition>
     </node>
     <node xmi:type="uml:DecisionNode" xmi:id="_sQo4MHDGEeS5EtN3POyIHg" name="DecisionNode1" incoming="_uVzN4HDGEeS5EtN3POyIHg" outgoing="_zXDhQHDGEeS5EtN3POyIHg _LEUAwHDHEeS5EtN3POyIHg _nxdFMHDIEeS5EtN3POyIHg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_TG48YHsVEeS2JKLlrRPttw" name="DecisionNode2"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_TzEs8HsVEeS2JKLlrRPttw" name="MergeNode1"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_W_Of4HsVEeS2JKLlrRPttw" name="ModificaDati"/>
   </packagedElement>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_Eeu2IHASEeSVe6UPgy2C3g" name="StateMachine1">
     <region xmi:type="uml:Region" xmi:id="_EfUsAHASEeSVe6UPgy2C3g" name="Region1"/>

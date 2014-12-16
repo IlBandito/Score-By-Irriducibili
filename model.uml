@@ -6,6 +6,8 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GZtLMl3hEeSNvNxhiAQ2ag" value="1"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_RS4UMF3hEeSNvNxhiAQ2ag" name="Attribute1"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_z0Fu0HrHEeSWmJsNl2Kb-A" name="Attribute2"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4vrfEHrHEeSWmJsNl2Kb-A" name="Operation1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_FhyEsF3hEeSNvNxhiAQ2ag" name="Class2"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_GZtLM13hEeSNvNxhiAQ2ag" memberEnd="_GZtLNF3hEeSNvNxhiAQ2ag _GZtLMF3hEeSNvNxhiAQ2ag">
