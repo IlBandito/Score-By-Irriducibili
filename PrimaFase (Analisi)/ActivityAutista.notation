@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="_EdbOkHASEeSVe6UPgy2C3g" type="PapyrusUMLActivityDiagram" name="activity" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_EdbOkXASEeSVe6UPgy2C3g" type="2001">
       <children xmi:type="notation:DecorationNode" xmi:id="_EdbOknASEeSVe6UPgy2C3g" type="5001"/>
@@ -173,42 +173,6 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nx5xIHDIEeS5EtN3POyIHg" id="(0.6166666666666667,0.676056338028169)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nx5xIXDIEeS5EtN3POyIHg" id="(0.06432748538011696,0.5925925925925926)"/>
     </edges>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="_EeqksHASEeSVe6UPgy2C3g" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_EeqksXASEeSVe6UPgy2C3g" name="diagram_compatibility_version" stringValue="1.0.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_EeqksnASEeSVe6UPgy2C3g"/>
-    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_Eeqks3ASEeSVe6UPgy2C3g">
-      <owner xmi:type="uml:Model" href="ActivityAutista.uml#_EcT0QHASEeSVe6UPgy2C3g"/>
-    </styles>
-    <element xmi:type="uml:Model" href="ActivityAutista.uml#_EcT0QHASEeSVe6UPgy2C3g"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="_EfXIQHASEeSVe6UPgy2C3g" type="PapyrusUMLStateMachineDiagram" name="NewDiagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_EfXIQXASEeSVe6UPgy2C3g" type="2000">
-      <children xmi:type="notation:DecorationNode" xmi:id="_EfXIQnASEeSVe6UPgy2C3g" type="2001">
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfXIQ3ASEeSVe6UPgy2C3g" width="700" height="20"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_EfXIRHASEeSVe6UPgy2C3g" type="2002">
-        <children xmi:type="notation:Shape" xmi:id="_EfXIRXASEeSVe6UPgy2C3g" type="3000">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EfXIRnASEeSVe6UPgy2C3g" source="RegionAnnotationKey">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EfXIR3ASEeSVe6UPgy2C3g" key="RegionZoneKey" value=""/>
-          </eAnnotations>
-          <children xmi:type="notation:DecorationNode" xmi:id="_EfXISHASEeSVe6UPgy2C3g" type="3002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfXISXASEeSVe6UPgy2C3g"/>
-          </children>
-          <element xmi:type="uml:Region" href="ActivityAutista.uml#_EfUsAHASEeSVe6UPgy2C3g"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfXISnASEeSVe6UPgy2C3g" width="700" height="287"/>
-        </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfXIS3ASEeSVe6UPgy2C3g" y="20" width="700" height="287"/>
-      </children>
-      <element xmi:type="uml:StateMachine" href="ActivityAutista.uml#_Eeu2IHASEeSVe6UPgy2C3g"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfXITHASEeSVe6UPgy2C3g" x="30" y="30" width="700" height="307"/>
-    </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_EfXITXASEeSVe6UPgy2C3g" name="diagram_compatibility_version" stringValue="1.0.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_EfXITnASEeSVe6UPgy2C3g"/>
-    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_EfXIT3ASEeSVe6UPgy2C3g">
-      <owner xmi:type="uml:Model" href="ActivityAutista.uml#_EcT0QHASEeSVe6UPgy2C3g"/>
-    </styles>
-    <element xmi:type="uml:StateMachine" href="ActivityAutista.uml#_Eeu2IHASEeSVe6UPgy2C3g"/>
   </notation:Diagram>
   <css:ModelStyleSheets xmi:id="_j9yIgHcZEeSC1du684xNqA"/>
 </xmi:XMI>

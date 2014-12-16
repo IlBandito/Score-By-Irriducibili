@@ -743,21 +743,5 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X2llIX-IEeSdIuPDKDz1ww" id="(0.6098654708520179,0.12)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_p2vU4HrHEeSWmJsNl2Kb-A" type="PapyrusUMLSequenceDiagram" name="NewDiagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_p2vU4XrHEeSWmJsNl2Kb-A" type="2001">
-      <children xmi:type="notation:DecorationNode" xmi:id="_p2vU4nrHEeSWmJsNl2Kb-A" type="5001"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_p2vU43rHEeSWmJsNl2Kb-A" type="7001">
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p2vU5HrHEeSWmJsNl2Kb-A"/>
-      </children>
-      <element xmi:type="uml:Interaction" href="Classi-AltoDettaglio.uml#_p2lj5HrHEeSWmJsNl2Kb-A"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p2vU5XrHEeSWmJsNl2Kb-A"/>
-    </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_p2vU5nrHEeSWmJsNl2Kb-A" name="diagram_compatibility_version" stringValue="1.0.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_p2vU53rHEeSWmJsNl2Kb-A"/>
-    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_p2vU6HrHEeSWmJsNl2Kb-A">
-      <owner xmi:type="uml:Model" href="Classi-AltoDettaglio.uml#_p1jCEHrHEeSWmJsNl2Kb-A"/>
-    </styles>
-    <element xmi:type="uml:Interaction" href="Classi-AltoDettaglio.uml#_p2lj5HrHEeSWmJsNl2Kb-A"/>
-  </notation:Diagram>
   <css:ModelStyleSheets xmi:id="_qz_AQHrHEeSWmJsNl2Kb-A"/>
 </xmi:XMI>

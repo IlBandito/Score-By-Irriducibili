@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="__DwjsH-SEeS3I6q2taOH9w" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_DmFfYH-TEeS3I6q2taOH9w" type="2008">
       <children xmi:type="notation:DecorationNode" xmi:id="_DmGGcH-TEeS3I6q2taOH9w" type="5029"/>
@@ -1160,67 +1160,6 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AQNGsIIaEeSVOY9sjQ0aQg" id="(0.7674418604651163,0.97)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AQNGsYIaEeSVOY9sjQ0aQg" id="(0.08098591549295775,0.46996466431095407)"/>
     </edges>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="__Dxx0H-SEeS3I6q2taOH9w" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
-    <styles xmi:type="notation:StringValueStyle" xmi:id="__Dxx0X-SEeS3I6q2taOH9w" name="diagram_compatibility_version" stringValue="1.0.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="__Dxx0n-SEeS3I6q2taOH9w"/>
-    <styles xmi:type="style:PapyrusViewStyle" xmi:id="__Dxx03-SEeS3I6q2taOH9w">
-      <owner xmi:type="uml:Model" href="Classi-Analisi.uml#__Dh6MH-SEeS3I6q2taOH9w"/>
-      <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration#_7wLmpNxhEeOqHvRyiN87hA"/>
-    </styles>
-    <element xmi:type="uml:Model" href="Classi-Analisi.uml#__Dh6MH-SEeS3I6q2taOH9w"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="__D0OEH-SEeS3I6q2taOH9w" type="PapyrusUMLSequenceDiagram" name="NewDiagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="__D0OEX-SEeS3I6q2taOH9w" type="2001">
-      <children xmi:type="notation:DecorationNode" xmi:id="__D0OEn-SEeS3I6q2taOH9w" type="5001"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="__D0OE3-SEeS3I6q2taOH9w" type="7001">
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__D0OFH-SEeS3I6q2taOH9w"/>
-      </children>
-      <element xmi:type="uml:Interaction" href="Classi-Analisi.uml#__DznAH-SEeS3I6q2taOH9w"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__D0OFX-SEeS3I6q2taOH9w"/>
-    </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="__D0OFn-SEeS3I6q2taOH9w" name="diagram_compatibility_version" stringValue="1.0.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="__D0OF3-SEeS3I6q2taOH9w"/>
-    <styles xmi:type="style:PapyrusViewStyle" xmi:id="__D0OGH-SEeS3I6q2taOH9w">
-      <owner xmi:type="uml:Model" href="Classi-Analisi.uml#__Dh6MH-SEeS3I6q2taOH9w"/>
-    </styles>
-    <element xmi:type="uml:Interaction" href="Classi-Analisi.uml#__DznAH-SEeS3I6q2taOH9w"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="__D34cH-SEeS3I6q2taOH9w" type="PapyrusUMLStateMachineDiagram" name="NewDiagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="__D34cX-SEeS3I6q2taOH9w" type="2000">
-      <children xmi:type="notation:DecorationNode" xmi:id="__D34cn-SEeS3I6q2taOH9w" type="2001">
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__D34c3-SEeS3I6q2taOH9w" width="700" height="13"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="__D34dH-SEeS3I6q2taOH9w" type="2002">
-        <children xmi:type="notation:Shape" xmi:id="__D34dX-SEeS3I6q2taOH9w" type="3000">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__D34dn-SEeS3I6q2taOH9w" source="RegionAnnotationKey">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__D34d3-SEeS3I6q2taOH9w" key="RegionZoneKey" value=""/>
-          </eAnnotations>
-          <children xmi:type="notation:DecorationNode" xmi:id="__D34eH-SEeS3I6q2taOH9w" type="3002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__D34eX-SEeS3I6q2taOH9w"/>
-          </children>
-          <element xmi:type="uml:Region" href="Classi-Analisi.uml#__D3RYH-SEeS3I6q2taOH9w"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__D34en-SEeS3I6q2taOH9w" width="700" height="287"/>
-        </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__D34e3-SEeS3I6q2taOH9w" y="13" width="700" height="287"/>
-      </children>
-      <element xmi:type="uml:StateMachine" href="Classi-Analisi.uml#__D2qUH-SEeS3I6q2taOH9w"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__D34fH-SEeS3I6q2taOH9w" x="30" y="30" width="700" height="300"/>
-    </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="__D34fX-SEeS3I6q2taOH9w" name="diagram_compatibility_version" stringValue="1.0.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="__D34fn-SEeS3I6q2taOH9w"/>
-    <styles xmi:type="style:PapyrusViewStyle" xmi:id="__D34f3-SEeS3I6q2taOH9w">
-      <owner xmi:type="uml:Model" href="Classi-Analisi.uml#__Dh6MH-SEeS3I6q2taOH9w"/>
-    </styles>
-    <element xmi:type="uml:StateMachine" href="Classi-Analisi.uml#__D2qUH-SEeS3I6q2taOH9w"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="__D5toH-SEeS3I6q2taOH9w" type="PapyrusUMLTimingDiagram" name="NewDiagram" measurementUnit="Pixel">
-    <styles xmi:type="notation:StringValueStyle" xmi:id="__D5toX-SEeS3I6q2taOH9w" name="diagram_compatibility_version" stringValue="1.0.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="__D5ton-SEeS3I6q2taOH9w"/>
-    <styles xmi:type="style:PapyrusViewStyle" xmi:id="__D5to3-SEeS3I6q2taOH9w">
-      <owner xmi:type="uml:Model" href="Classi-Analisi.uml#__Dh6MH-SEeS3I6q2taOH9w"/>
-    </styles>
-    <element xmi:type="uml:Model" href="Classi-Analisi.uml#__Dh6MH-SEeS3I6q2taOH9w"/>
   </notation:Diagram>
   <css:ModelStyleSheets xmi:id="_AKZboH-TEeS3I6q2taOH9w"/>
 </xmi:XMI>
