@@ -11,16 +11,17 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_zXDhQHDGEeS5EtN3POyIHg" target="_OsQ0UHDGEeS5EtN3POyIHg" source="_sQo4MHDGEeS5EtN3POyIHg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_LEUAwHDHEeS5EtN3POyIHg" target="_N_QkYHDGEeS5EtN3POyIHg" source="_sQo4MHDGEeS5EtN3POyIHg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_nxdFMHDIEeS5EtN3POyIHg" target="_OQZXsHDGEeS5EtN3POyIHg" source="_sQo4MHDGEeS5EtN3POyIHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Kkt1kIYOEeSE7KwtNj4ZeQ" target="_TG48YHsVEeS2JKLlrRPttw" source="_OsQ0UHDGEeS5EtN3POyIHg"/>
     <node xmi:type="uml:InitialNode" xmi:id="_Jz7MYHDGEeS5EtN3POyIHg" name="InitialNode1" outgoing="_uVzN4HDGEeS5EtN3POyIHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_N_QkYHDGEeS5EtN3POyIHg" name="Tragitto da compiere" incoming="_LEUAwHDHEeS5EtN3POyIHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_OQZXsHDGEeS5EtN3POyIHg" name="Logout" incoming="_nxdFMHDIEeS5EtN3POyIHg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_OsQ0UHDGEeS5EtN3POyIHg" name="Profilo Autista" incoming="_zXDhQHDGEeS5EtN3POyIHg">
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OsQ0UHDGEeS5EtN3POyIHg" name="Profilo Autista" incoming="_zXDhQHDGEeS5EtN3POyIHg" outgoing="_Kkt1kIYOEeSE7KwtNj4ZeQ">
       <localPrecondition xmi:type="uml:Constraint" xmi:id="_lOTd4HDGEeS5EtN3POyIHg" name="Autista autenticato">
         <specification xmi:type="uml:LiteralString" xmi:id="_lOWhMHDGEeS5EtN3POyIHg" name="constraintSpec"/>
       </localPrecondition>
     </node>
     <node xmi:type="uml:DecisionNode" xmi:id="_sQo4MHDGEeS5EtN3POyIHg" name="DecisionNode1" incoming="_uVzN4HDGEeS5EtN3POyIHg" outgoing="_zXDhQHDGEeS5EtN3POyIHg _LEUAwHDHEeS5EtN3POyIHg _nxdFMHDIEeS5EtN3POyIHg"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_TG48YHsVEeS2JKLlrRPttw" name="DecisionNode2"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_TG48YHsVEeS2JKLlrRPttw" name="DecisionNode2" incoming="_Kkt1kIYOEeSE7KwtNj4ZeQ"/>
     <node xmi:type="uml:MergeNode" xmi:id="_TzEs8HsVEeS2JKLlrRPttw" name="MergeNode1"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_W_Of4HsVEeS2JKLlrRPttw" name="ModificaDati"/>
   </packagedElement>
