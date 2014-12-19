@@ -7,6 +7,9 @@
     <lifeline xmi:type="uml:Lifeline" xmi:id="_XyaRwIbFEeSH_qEIzAt_5A" name="Dipendente" coveredBy="_e5Ix8IbHEeSH_qEIzAt_5A"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_YK2m8IbFEeSH_qEIzAt_5A" name="Gestore Tragitto" coveredBy="_FLmHoIbFEeSH_qEIzAt_5A _FLmHoYbFEeSH_qEIzAt_5A _OGC6IIbFEeSH_qEIzAt_5A _c7sfwobFEeSH_qEIzAt_5A _fpossYbFEeSH_qEIzAt_5A _fpossobFEeSH_qEIzAt_5A _f0EbEYbFEeSH_qEIzAt_5A _g7v00YbFEeSH_qEIzAt_5A _g7v00obFEeSH_qEIzAt_5A _4CIhk4bFEeSH_qEIzAt_5A _5-tjAYbFEeSH_qEIzAt_5A _81QSUYbFEeSH_qEIzAt_5A"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_5-aoEIbFEeSH_qEIzAt_5A" name="Tragitto" coveredBy="_5-tjAobFEeSH_qEIzAt_5A _FLmHoIbFEeSH_qEIzAt_5A _FLmHoYbFEeSH_qEIzAt_5A _OGC6IIbFEeSH_qEIzAt_5A _o9irkIbGEeSH_qEIzAt_5A"/>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_814gEIanEeS2XZowjX0efw" name="Nessuna assenza comunicata">
+      <invariant xmi:type="uml:Constraint" xmi:id="_E2ECsIaoEeS2XZowjX0efw" name="NULL"/>
+    </fragment>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_b5h4IIbFEeSH_qEIzAt_5A" name="ActionExecSpecStart" execution="_b5h4IYbFEeSH_qEIzAt_5A"/>
     <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_b5h4IYbFEeSH_qEIzAt_5A" name="ActionExecSpec" finish="_b5h4IobFEeSH_qEIzAt_5A" start="_b5h4IIbFEeSH_qEIzAt_5A"/>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_FLmHoIbFEeSH_qEIzAt_5A" name="CombinedFragment" covered="_YK2m8IbFEeSH_qEIzAt_5A _5-aoEIbFEeSH_qEIzAt_5A" interactionOperator="alt">
@@ -47,11 +50,8 @@
       <invariant xmi:type="uml:Constraint" xmi:id="_e5Ix8YbHEeSH_qEIzAt_5A" name=""/>
     </fragment>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_pgI3wIbFEeSH_qEIzAt_5A" name="ActionExecSpec0Finish" execution="_dQaLg4bFEeSH_qEIzAt_5A"/>
-    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_b5h4IobFEeSH_qEIzAt_5A" name="ActionExecSpecFinish" execution="_b5h4IYbFEeSH_qEIzAt_5A"/>
-    <fragment xmi:type="uml:StateInvariant" xmi:id="_814gEIanEeS2XZowjX0efw" name="Nessuna assenza comunicata">
-      <invariant xmi:type="uml:Constraint" xmi:id="_E2ECsIaoEeS2XZowjX0efw" name="NULL"/>
-    </fragment>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="__Q0yUIbEEeSH_qEIzAt_5A" name="BehaviorExecSpecStart"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_b5h4IobFEeSH_qEIzAt_5A" name="ActionExecSpecFinish" execution="_b5h4IYbFEeSH_qEIzAt_5A"/>
     <message xmi:type="uml:Message" xmi:id="_3C-34IaoEeS2XZowjX0efw" name="Message" messageSort="createMessage"/>
     <message xmi:type="uml:Message" xmi:id="_4ed1EIbBEeSH_qEIzAt_5A" name="OttimizzaTragitto ()"/>
     <message xmi:type="uml:Message" xmi:id="_eXh2gIbDEeSH_qEIzAt_5A" name="Message1"/>
@@ -67,6 +67,8 @@
     <message xmi:type="uml:Message" xmi:id="_veJR0IbGEeSH_qEIzAt_5A" name="Message11" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_Y_OYQIbHEeSH_qEIzAt_5A" name="Message12" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_aeTlYIbHEeSH_qEIzAt_5A" name="Message13" messageSort="reply"/>
+    <message xmi:type="uml:Message" xmi:id="_yEJYkIdnEeSW1LJ1jrLsiQ" name="Message14" messageSort="reply"/>
+    <message xmi:type="uml:Message" xmi:id="_y1U94IdnEeSW1LJ1jrLsiQ" name="Message15" messageSort="asynchCall"/>
   </packagedElement>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_rD-UEIU7EeSozMh7vHoy2Q" name="StateMachine1">
     <region xmi:type="uml:Region" xmi:id="_rD_iMIU7EeSozMh7vHoy2Q" name="Region1"/>

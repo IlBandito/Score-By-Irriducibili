@@ -19,7 +19,6 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_7ECi0H-zEeS3I6q2taOH9w" name="ID"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_CppCQH-0EeS3I6q2taOH9w" name="Data_Creazione"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_N9xB4H-0EeS3I6q2taOH9w" name="Data_Chiusura"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_ziQW8H-0EeS3I6q2taOH9w" name="TipoAccount"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_MON9YH-UEeS3I6q2taOH9w" name="create"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_5OwfYH-3EeS3I6q2taOH9w" name="logout"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_7WC8AH-3EeS3I6q2taOH9w" name="login"/>
@@ -36,7 +35,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FmAoYX-WEeS3I6q2taOH9w" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FmAoYn-WEeS3I6q2taOH9w" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_o4fpIH-XEeS3I6q2taOH9w" name="IndirizzoResidenza/Fermata"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_E-GA4IIUEeSVOY9sjQ0aQg" name="ordine" type="_IA0F0H-1EeS3I6q2taOH9w" association="_E-GA44IUEeSVOY9sjQ0aQg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E-GA4YIUEeSVOY9sjQ0aQg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E-GA4oIUEeSVOY9sjQ0aQg" value="1"/>
@@ -118,6 +116,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_5kHlAH-vEeS3I6q2taOH9w" name="NumeroFermate"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TOZMoIbIEeSH_qEIzAt_5A" name="Stato"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_7OeOAH-vEeS3I6q2taOH9w" name="create"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ViyP4IdyEeSW1LJ1jrLsiQ" name="Aggiorna()"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_jbJiwH-vEeS3I6q2taOH9w" name="percorrenza" memberEnd="_jbJiwX-vEeS3I6q2taOH9w _jbIUoH-vEeS3I6q2taOH9w">
       <ownedEnd xmi:type="uml:Property" xmi:id="_jbIUoH-vEeS3I6q2taOH9w" name="navetta" type="_LMtAkH-VEeS3I6q2taOH9w" association="_jbJiwH-vEeS3I6q2taOH9w">
@@ -129,13 +128,10 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_2c-08H-vEeS3I6q2taOH9w" name="CaricaFermata"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_2xu88H-vEeS3I6q2taOH9w" name="CaricaDestinazione"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_-n6kIH-xEeS3I6q2taOH9w" name="OttimizzaTragitto"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_B21-QH-yEeS3I6q2taOH9w" name="UnisciFermate"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_GOn20H-yEeS3I6q2taOH9w" name="CreaFermata"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_M8CdwIbIEeSH_qEIzAt_5A" name="AggiornaTargitto()"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_PUC28IbIEeSH_qEIzAt_5A" name="CreaTragitto"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_QpbVgIbIEeSH_qEIzAt_5A" name="EliminaTragitto"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_vCTMEH-vEeS3I6q2taOH9w" client="_sAj5YH-vEeS3I6q2taOH9w" supplier="_dGORwH-TEeS3I6q2taOH9w"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_wuwt4H-vEeS3I6q2taOH9w" client="_sAj5YH-vEeS3I6q2taOH9w" supplier="_UzIwgH-vEeS3I6q2taOH9w"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_bwfSQH-xEeS3I6q2taOH9w" name="impiego" memberEnd="_bwfSQX-xEeS3I6q2taOH9w _bweEIH-xEeS3I6q2taOH9w" navigableOwnedEnd="_bwfSQX-xEeS3I6q2taOH9w">
       <ownedEnd xmi:type="uml:Property" xmi:id="_bwfSQX-xEeS3I6q2taOH9w" name="azienda" type="_sWGYcH-XEeS3I6q2taOH9w" association="_bwfSQH-xEeS3I6q2taOH9w">
@@ -242,14 +238,10 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_DFjgAIIWEeSVOY9sjQ0aQg" client="_mShZgIIVEeSVOY9sjQ0aQg" supplier="_qgdUYH-2EeS3I6q2taOH9w"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_DvbjcIIWEeSVOY9sjQ0aQg" client="_mShZgIIVEeSVOY9sjQ0aQg" supplier="_IA0F0H-1EeS3I6q2taOH9w"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_TNfXcIIXEeSVOY9sjQ0aQg" name="Circuito Bancario"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_W8954IIXEeSVOY9sjQ0aQg" client="_mShZgIIVEeSVOY9sjQ0aQg" supplier="_TNfXcIIXEeSVOY9sjQ0aQg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_08aeQIIZEeSVOY9sjQ0aQg" name="Gestore Registrazioni">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_BatyAIIaEeSVOY9sjQ0aQg" name="ControlloDatiImmessi"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_E4ti4IIaEeSVOY9sjQ0aQg" name="CreaAccount"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_5lHHsIIZEeSVOY9sjQ0aQg" name="Interfaccia registrazione"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="__sShUIIZEeSVOY9sjQ0aQg" client="_08aeQIIZEeSVOY9sjQ0aQg" supplier="_5lHHsIIZEeSVOY9sjQ0aQg"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_AQDVsIIaEeSVOY9sjQ0aQg" client="_08aeQIIZEeSVOY9sjQ0aQg" supplier="_Dl__0H-TEeS3I6q2taOH9w"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_YM2qsIbIEeSH_qEIzAt_5A" name="Fermata">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_bYHFwIbIEeSH_qEIzAt_5A" name="Via/Locazione"/>
@@ -258,9 +250,10 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g-T5QobIEeSH_qEIzAt_5A" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_vQ1jsIbIEeSH_qEIzAt_5A" name="dipendente" type="_dGORwH-TEeS3I6q2taOH9w" association="_vQ1js4bIEeSH_qEIzAt_5A">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vQ1jsYbIEeSH_qEIzAt_5A" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vQ1jsobIEeSH_qEIzAt_5A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vQ1jsYbIEeSH_qEIzAt_5A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vQ1jsobIEeSH_qEIzAt_5A" value="*"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fkMN8IdzEeSW1LJ1jrLsiQ" name="Stato fermata"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Z86TEIbIEeSH_qEIzAt_5A" name="create"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_fXVUYIbIEeSH_qEIzAt_5A" client="_sAj5YH-vEeS3I6q2taOH9w" supplier="_YM2qsIbIEeSH_qEIzAt_5A"/>
@@ -276,6 +269,9 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vQ1jtobIEeSH_qEIzAt_5A" value="1"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_v2xTUIdtEeSW1LJ1jrLsiQ" name="Package1"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="__JoZYIdtEeSW1LJ1jrLsiQ" name="Package2"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V4L08IduEeSW1LJ1jrLsiQ" name="Package3"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Qd6GYH-TEeS3I6q2taOH9w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QkBVcH-TEeS3I6q2taOH9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>

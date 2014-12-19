@@ -25,7 +25,7 @@
             <children xmi:type="notation:Shape" xmi:id="_OGC6JYbFEeSH_qEIzAt_5A" type="3005">
               <children xmi:type="notation:DecorationNode" xmi:id="_OGC6J4bFEeSH_qEIzAt_5A" type="InteractionOperand_Guard">
                 <element xmi:type="uml:InteractionConstraint" href="sequenceNonUtilizzoBus.uml#_OGC6IYbFEeSH_qEIzAt_5A"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OGC6KIbFEeSH_qEIzAt_5A" x="254" y="12"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OGC6KIbFEeSH_qEIzAt_5A" x="258" y="10"/>
               </children>
               <element xmi:type="uml:InteractionOperand" href="sequenceNonUtilizzoBus.uml#_OGC6IIbFEeSH_qEIzAt_5A"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OGC6JobFEeSH_qEIzAt_5A" y="219" width="753" height="175"/>
@@ -51,7 +51,7 @@
             <children xmi:type="notation:DecorationNode" xmi:id="_e5Si8IbHEeSH_qEIzAt_5A" type="5008"/>
             <children xmi:type="notation:DecorationNode" xmi:id="_e5Si8YbHEeSH_qEIzAt_5A" type="5023"/>
             <element xmi:type="uml:StateInvariant" href="sequenceNonUtilizzoBus.uml#_e5Ix8IbHEeSH_qEIzAt_5A"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e5Ix84bHEeSH_qEIzAt_5A" x="48" y="568"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e5Ix84bHEeSH_qEIzAt_5A" x="164" y="563"/>
           </children>
           <element xmi:type="uml:Lifeline" href="sequenceNonUtilizzoBus.uml#_XyaRwIbFEeSH_qEIzAt_5A"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XyaRwobFEeSH_qEIzAt_5A" x="213" y="10" width="95" height="664"/>
