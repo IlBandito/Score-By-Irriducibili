@@ -140,14 +140,6 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_TaRQI4eNEeSaQMis2NXg4A" client="_TaRQF4eNEeSaQMis2NXg4A _TaRQF4eNEeSaQMis2NXg4A _TaRQF4eNEeSaQMis2NXg4A _TaRQF4eNEeSaQMis2NXg4A _TaRQF4eNEeSaQMis2NXg4A _TaRQF4eNEeSaQMis2NXg4A _TaRQF4eNEeSaQMis2NXg4A _TaRQF4eNEeSaQMis2NXg4A _TaRQF4eNEeSaQMis2NXg4A" supplier="_TaRQBYeNEeSaQMis2NXg4A _TaRQBYeNEeSaQMis2NXg4A _TaRQBYeNEeSaQMis2NXg4A _TaRQBYeNEeSaQMis2NXg4A _TaRQBYeNEeSaQMis2NXg4A _TaRQBYeNEeSaQMis2NXg4A _TaRQBYeNEeSaQMis2NXg4A _TaRQBYeNEeSaQMis2NXg4A _TaRQBYeNEeSaQMis2NXg4A"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_TaRQJIeNEeSaQMis2NXg4A" name="Carta_di_credito">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQJYeNEeSaQMis2NXg4A" name="Data_creazione"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQJoeNEeSaQMis2NXg4A" name="numero_Carta"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQJ4eNEeSaQMis2NXg4A" name="dipendente" type="_TaQo84eNEeSaQMis2NXg4A" association="_TaRQYYeNEeSaQMis2NXg4A">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TaRQKIeNEeSaQMis2NXg4A" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TaRQKYeNEeSaQMis2NXg4A" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TaRQKoeNEeSaQMis2NXg4A" name="Ordine">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQK4eNEeSaQMis2NXg4A" name="ID"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQLIeNEeSaQMis2NXg4A" name="Data"/>
@@ -217,12 +209,6 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TaRQX4eNEeSaQMis2NXg4A" name="RimuoviOrdine"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_TaRQYIeNEeSaQMis2NXg4A" client="_TaRQXYeNEeSaQMis2NXg4A _TaRQXYeNEeSaQMis2NXg4A _TaRQXYeNEeSaQMis2NXg4A _TaRQXYeNEeSaQMis2NXg4A _TaRQXYeNEeSaQMis2NXg4A _TaRQXYeNEeSaQMis2NXg4A _TaRQXYeNEeSaQMis2NXg4A _TaRQXYeNEeSaQMis2NXg4A _TaRQXYeNEeSaQMis2NXg4A" supplier="_TaRQKoeNEeSaQMis2NXg4A _TaRQKoeNEeSaQMis2NXg4A _TaRQKoeNEeSaQMis2NXg4A _TaRQKoeNEeSaQMis2NXg4A _TaRQKoeNEeSaQMis2NXg4A _TaRQKoeNEeSaQMis2NXg4A _TaRQKoeNEeSaQMis2NXg4A _TaRQKoeNEeSaQMis2NXg4A _TaRQKoeNEeSaQMis2NXg4A"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_TaRQYYeNEeSaQMis2NXg4A" memberEnd="_TaRQYoeNEeSaQMis2NXg4A _TaRQJ4eNEeSaQMis2NXg4A">
-      <ownedEnd xmi:type="uml:Property" xmi:id="_TaRQYoeNEeSaQMis2NXg4A" name="carta_di_credito" type="_TaRQJIeNEeSaQMis2NXg4A" association="_TaRQYYeNEeSaQMis2NXg4A">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TaRQY4eNEeSaQMis2NXg4A"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TaRQZIeNEeSaQMis2NXg4A" value="3"/>
-      </ownedEnd>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_TaRQZYeNEeSaQMis2NXg4A" memberEnd="_TaRQZoeNEeSaQMis2NXg4A _TaQo_YeNEeSaQMis2NXg4A">
       <name xsi:nil="true"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_TaRQZoeNEeSaQMis2NXg4A" name="dipendente" type="_TaQo84eNEeSaQMis2NXg4A" association="_TaRQZYeNEeSaQMis2NXg4A">
