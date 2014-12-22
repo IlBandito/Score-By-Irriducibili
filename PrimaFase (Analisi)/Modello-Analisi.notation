@@ -2476,15 +2476,6 @@
           <element xmi:type="uml:Comment" href="Modello-Analisi.uml#_AjyeoIg8EeSg5sJLNzbK6A"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjzswYg8EeSg5sJLNzbK6A" x="123" y="78"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_pOtRwog_EeSg5sJLNzbK6A" type="3001">
-          <children xmi:type="notation:DecorationNode" xmi:id="_pOtRxIg_EeSg5sJLNzbK6A" type="5002"/>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_nnBjIIm8EeSSJZnQI93ixQ" type="compartment_shape_display">
-            <styles xmi:type="notation:TitleStyle" xmi:id="_nnBjIYm8EeSSJZnQI93ixQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnBjIom8EeSSJZnQI93ixQ"/>
-          </children>
-          <element xmi:type="uml:Lifeline" href="Modello-Analisi.uml#_pOtRwIg_EeSg5sJLNzbK6A"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pOtRw4g_EeSg5sJLNzbK6A" x="1249" y="10" width="79" height="663"/>
-        </children>
         <children xmi:type="notation:Shape" xmi:id="_GAieYohAEeSg5sJLNzbK6A" type="3001">
           <children xmi:type="notation:DecorationNode" xmi:id="_GAieZIhAEeSg5sJLNzbK6A" type="5002"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_GAsPYIhAEeSg5sJLNzbK6A" type="compartment_shape_display">
