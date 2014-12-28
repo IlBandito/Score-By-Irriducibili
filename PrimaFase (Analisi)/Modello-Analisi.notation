@@ -4315,7 +4315,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q85tAIg6EeSg5sJLNzbK6A" id="(0.9666666666666667,0.45)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_dthMsIqTEeSJ_df0zjLY0Q" type="PapyrusUMLSequenceDiagram" name="Acuista/rinnova Abbonamento" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_dthMsIqTEeSJ_df0zjLY0Q" type="PapyrusUMLSequenceDiagram" name="Acquista/rinnova Abbonamento" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_dthMsYqTEeSJ_df0zjLY0Q" type="2001">
       <children xmi:type="notation:DecorationNode" xmi:id="_dthMsoqTEeSJ_df0zjLY0Q" type="5001"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_dthMs4qTEeSJ_df0zjLY0Q" type="7001">
