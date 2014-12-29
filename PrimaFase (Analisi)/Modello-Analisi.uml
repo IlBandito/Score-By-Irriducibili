@@ -536,7 +536,7 @@
       <edge xmi:type="uml:ControlFlow" xmi:id="_JE0iVIeREeSaQMis2NXg4A" target="_JE0iZIeREeSaQMis2NXg4A" source="_JE0iY4eREeSaQMis2NXg4A"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_JE0iVYeREeSaQMis2NXg4A" target="_JE0iYIeREeSaQMis2NXg4A" source="_JE0iWoeREeSaQMis2NXg4A"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_JE0iVoeREeSaQMis2NXg4A" target="_JE0iV4eREeSaQMis2NXg4A" source="_JE0iYIeREeSaQMis2NXg4A"/>
-      <group xmi:type="uml:ActivityPartition" xmi:id="_JE0iRYeREeSaQMis2NXg4A" name="Utente" node="_JE0iV4eREeSaQMis2NXg4A _JE0iWIeREeSaQMis2NXg4A _JE0iYYeREeSaQMis2NXg4A _JE0iWYeREeSaQMis2NXg4A _JE0iXoeREeSaQMis2NXg4A"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_JE0iRYeREeSaQMis2NXg4A" name="Utente" node="_JE0iV4eREeSaQMis2NXg4A _JE0iWIeREeSaQMis2NXg4A _JE0iYYeREeSaQMis2NXg4A _JE0iWYeREeSaQMis2NXg4A _JE0iXoeREeSaQMis2NXg4A _JE0iYIeREeSaQMis2NXg4A"/>
       <group xmi:type="uml:ActivityPartition" xmi:id="_JE0iRoeREeSaQMis2NXg4A" name="Sistema" node="_JE0iWoeREeSaQMis2NXg4A _JE0iX4eREeSaQMis2NXg4A _JE0iW4eREeSaQMis2NXg4A _JE0iY4eREeSaQMis2NXg4A _JE0iZIeREeSaQMis2NXg4A"/>
       <node xmi:type="uml:InitialNode" xmi:id="_JE0iV4eREeSaQMis2NXg4A" name="InitialNode1" incoming="_JE0iVoeREeSaQMis2NXg4A" outgoing="_JE0iR4eREeSaQMis2NXg4A" inPartition="_JE0iRYeREeSaQMis2NXg4A"/>
       <node xmi:type="uml:OpaqueAction" xmi:id="_JE0iWIeREeSaQMis2NXg4A" name="seleziona tipo registrazione" incoming="_JE0iR4eREeSaQMis2NXg4A" outgoing="_JE0iSIeREeSaQMis2NXg4A" inPartition="_JE0iRYeREeSaQMis2NXg4A"/>
@@ -549,7 +549,7 @@
       </node>
       <node xmi:type="uml:OpaqueAction" xmi:id="_JE0iXoeREeSaQMis2NXg4A" name="riempi campi " incoming="_JE0iSIeREeSaQMis2NXg4A" outgoing="_JE0iT4eREeSaQMis2NXg4A _JE0iUoeREeSaQMis2NXg4A" inPartition="_JE0iRYeREeSaQMis2NXg4A"/>
       <node xmi:type="uml:DecisionNode" xmi:id="_JE0iX4eREeSaQMis2NXg4A" name="L'informazioni sono corrette?" incoming="_JE0iTIeREeSaQMis2NXg4A" outgoing="_JE0iTYeREeSaQMis2NXg4A _JE0iToeREeSaQMis2NXg4A" inPartition="_JE0iRoeREeSaQMis2NXg4A"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_JE0iYIeREeSaQMis2NXg4A" name="ripeti Registrazione" incoming="_JE0iVYeREeSaQMis2NXg4A" outgoing="_JE0iVoeREeSaQMis2NXg4A"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_JE0iYIeREeSaQMis2NXg4A" name="ripeti Registrazione" incoming="_JE0iVYeREeSaQMis2NXg4A" outgoing="_JE0iVoeREeSaQMis2NXg4A" inPartition="_JE0iRYeREeSaQMis2NXg4A"/>
       <node xmi:type="uml:DataStoreNode" xmi:id="_JE0iYYeREeSaQMis2NXg4A" name="Informazioni" incoming="_JE0iT4eREeSaQMis2NXg4A" outgoing="_JE0iSYeREeSaQMis2NXg4A" inPartition="_JE0iRYeREeSaQMis2NXg4A">
         <upperBound xmi:type="uml:LiteralInteger" xmi:id="_JE0iYoeREeSaQMis2NXg4A" value="1"/>
       </node>
@@ -1021,7 +1021,6 @@
 &quot; Acquista o rinnova abbonamento&quot;</body>
       </ownedComment>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_i74vAIqTEeSJ_df0zjLY0Q" name="" type="_fmIkEIg2EeSg5sJLNzbK6A"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_0Om0AIqTEeSJ_df0zjLY0Q" name="" type="_TaRQKoeNEeSaQMis2NXg4A"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_3KcTAIqTEeSJ_df0zjLY0Q" name="" type="_TaQo84eNEeSaQMis2NXg4A"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_L_OA8IzuEeSnk_xeat1Gxg" name="" type="_TaRQXYeNEeSaQMis2NXg4A"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_2VHxsY4OEeSMUNIJmz2_Xg" name="" type="_TaRQKoeNEeSaQMis2NXg4A"/>
@@ -1145,6 +1144,25 @@
       <message xmi:type="uml:Message" xmi:id="_vkPOII6aEeSWV-xgQxhXCw" name="RiceviPagamento(ID_Ordine)" receiveEvent="_vkRqYI6aEeSWV-xgQxhXCw" sendEvent="_vkRDUI6aEeSWV-xgQxhXCw"/>
       <message xmi:type="uml:Message" xmi:id="_zzjHMI6aEeSWV-xgQxhXCw" name="Message9" messageSort="reply" receiveEvent="_zzmKgI6aEeSWV-xgQxhXCw" sendEvent="_zzk8YI6aEeSWV-xgQxhXCw"/>
       <message xmi:type="uml:Message" xmi:id="_35EyII6aEeSWV-xgQxhXCw" name="Message10" messageSort="reply" receiveEvent="_35HOYI6aEeSWV-xgQxhXCw" sendEvent="_81zx4I6aEeSWV-xgQxhXCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_6y2m8I8vEeSKUubPJNoikw" name="acquista/rinnova abbonamento">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_WzHMsI8wEeSKUubPJNoikw">
+        <body>L'attore dipendente&#xD;
+seleziona&quot; Acquista o &#xD;
+rinnova abbonamento&quot;&#xD;
+</body>
+      </ownedComment>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_H_vfAI8wEeSKUubPJNoikw" name="Lifeline" represents="_3KcTAIqTEeSJ_df0zjLY0Q" coveredBy="_g3HBMY8wEeSKUubPJNoikw _g3HBMI8wEeSKUubPJNoikw _k7D-0I8wEeSKUubPJNoikw _mLkkcY8wEeSKUubPJNoikw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_LGPV4I8wEeSKUubPJNoikw" name="Lifeline0" represents="_L_OA8IzuEeSnk_xeat1Gxg" coveredBy="_mLkkco8wEeSKUubPJNoikw _mzzpJI8wEeSKUubPJNoikw _mzzpI48wEeSKUubPJNoikw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_M4qVwI8wEeSKUubPJNoikw" name="Lifeline1" represents="_2VHxsY4OEeSMUNIJmz2_Xg"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_k7D-0I8wEeSKUubPJNoikw" name="BehaviorExecSpecStart" covered="_H_vfAI8wEeSKUubPJNoikw" execution="_g3HBMI8wEeSKUubPJNoikw"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_g3HBMI8wEeSKUubPJNoikw" name="BehaviorExecSpec" covered="_H_vfAI8wEeSKUubPJNoikw" finish="_g3HBMY8wEeSKUubPJNoikw" start="_k7D-0I8wEeSKUubPJNoikw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mLkkcY8wEeSKUubPJNoikw" name="MessageSend" covered="_H_vfAI8wEeSKUubPJNoikw" message="_mLkkcI8wEeSKUubPJNoikw"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mzzpI48wEeSKUubPJNoikw" name="BehaviorExecSpec0" covered="_LGPV4I8wEeSKUubPJNoikw" finish="_mzzpJI8wEeSKUubPJNoikw" start="_mLkkco8wEeSKUubPJNoikw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mLkkco8wEeSKUubPJNoikw" name="MessageRecv" covered="_LGPV4I8wEeSKUubPJNoikw" message="_mLkkcI8wEeSKUubPJNoikw"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_mzzpJI8wEeSKUubPJNoikw" name="BehaviorExecSpec0Finish" covered="_LGPV4I8wEeSKUubPJNoikw" execution="_mzzpI48wEeSKUubPJNoikw"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_g3HBMY8wEeSKUubPJNoikw" name="BehaviorExecSpecFinish" covered="_H_vfAI8wEeSKUubPJNoikw" execution="_g3HBMI8wEeSKUubPJNoikw"/>
+      <message xmi:type="uml:Message" xmi:id="_mLkkcI8wEeSKUubPJNoikw" name="Acquista/Rinnova Abbonamento" receiveEvent="_mLkkco8wEeSKUubPJNoikw" sendEvent="_mLkkcY8wEeSKUubPJNoikw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_t-dRkIeTEeSaQMis2NXg4A" name="Utente"/>
