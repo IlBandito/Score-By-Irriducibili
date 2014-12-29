@@ -172,6 +172,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQUYeNEeSaQMis2NXg4A" name="Data_Inizio_Validità"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQUoeNEeSaQMis2NXg4A" name="Data_Fine_Validità"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQU4eNEeSaQMis2NXg4A" name="stato"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cZUEkI9OEeSlz6cOTfDmJg" name="Importo"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TaRQVIeNEeSaQMis2NXg4A" name="create"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TaRQVYeNEeSaQMis2NXg4A" name="Articolo">
@@ -1206,7 +1207,7 @@ selezionati dall'attore dipendente.</body>
       <message xmi:type="uml:Message" xmi:id="_19nM8I9IEeSDo7zgY-Rozw" name="AggiornaDati(abbonamento)" receiveEvent="_19pCII9IEeSDo7zgY-Rozw" sendEvent="_19obEI9IEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_dSN0wI9JEeSDo7zgY-Rozw" name="Message10" messageSort="reply" receiveEvent="_dSQRAI9JEeSDo7zgY-Rozw" sendEvent="_dSPC4I9JEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_s_Lc4I9JEeSDo7zgY-Rozw" name="Rinnova" receiveEvent="_s_N5II9JEeSDo7zgY-Rozw" sendEvent="_s_NSEI9JEeSDo7zgY-Rozw"/>
-      <message xmi:type="uml:Message" xmi:id="_xX_QMI9JEeSDo7zgY-Rozw" name="RiceviPagamento(importoAbbonamento)" receiveEvent="_xYBFYY9JEeSDo7zgY-Rozw" sendEvent="_xYBFYI9JEeSDo7zgY-Rozw"/>
+      <message xmi:type="uml:Message" xmi:id="_xX_QMI9JEeSDo7zgY-Rozw" name="RiceviPagamento(importo.Abbonamento)" receiveEvent="_xYBFYY9JEeSDo7zgY-Rozw" sendEvent="_xYBFYI9JEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_4kWwQI9JEeSDo7zgY-Rozw" name="Message11" messageSort="reply" receiveEvent="_4kYlcI9JEeSDo7zgY-Rozw" sendEvent="_4kX-YI9JEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_4qQHcI9KEeSDo7zgY-Rozw" name="Message12" messageSort="reply" receiveEvent="_4qTKwI9KEeSDo7zgY-Rozw" sendEvent="_4qR8oI9KEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_E0BVoI9LEeSDo7zgY-Rozw" name="Rinnova(abbonamento)" receiveEvent="_E0Dx4I9LEeSDo7zgY-Rozw" sendEvent="_E0DK0I9LEeSDo7zgY-Rozw"/>
@@ -1214,7 +1215,7 @@ selezionati dall'attore dipendente.</body>
       <message xmi:type="uml:Message" xmi:id="_Slm2MI9LEeSDo7zgY-Rozw" name="Message16" messageSort="reply" receiveEvent="_SlpScI9LEeSDo7zgY-Rozw" sendEvent="_SlorYI9LEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_akjCsI9LEeSDo7zgY-Rozw" name="Message17" messageSort="reply" receiveEvent="_akmGAI9LEeSDo7zgY-Rozw" sendEvent="_akkQ0I9LEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_v0ubwI9LEeSDo7zgY-Rozw" name="Message18" messageSort="reply" receiveEvent="_v0wQ8I9LEeSDo7zgY-Rozw" sendEvent="_v0vp4I9LEeSDo7zgY-Rozw"/>
-      <message xmi:type="uml:Message" xmi:id="_xBph4I9LEeSDo7zgY-Rozw" name="CalcolaImportoAbbonamento(abbonamento)" receiveEvent="_xBr-II9LEeSDo7zgY-Rozw" sendEvent="_xBrXEI9LEeSDo7zgY-Rozw"/>
+      <message xmi:type="uml:Message" xmi:id="_xBph4I9LEeSDo7zgY-Rozw" name="AggiornaImportoAbbonamento(abbonamento)" receiveEvent="_xBr-II9LEeSDo7zgY-Rozw" sendEvent="_xBrXEI9LEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_9LXswI9LEeSDo7zgY-Rozw" name="Message19" messageSort="reply" receiveEvent="_9LZh8I9LEeSDo7zgY-Rozw" sendEvent="_9LY64I9LEeSDo7zgY-Rozw"/>
       <message xmi:type="uml:Message" xmi:id="_a8ArAI9MEeSDo7zgY-Rozw" name="Message20" messageSort="reply" receiveEvent="_a8DuUI9MEeSDo7zgY-Rozw" sendEvent="_a8DHQI9MEeSDo7zgY-Rozw"/>
     </packagedElement>

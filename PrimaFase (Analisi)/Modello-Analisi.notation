@@ -463,6 +463,10 @@
           <element xmi:type="uml:Property" href="Modello-Analisi.uml#_TaRQU4eNEeSaQMis2NXg4A"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_TaesB4eNEeSaQMis2NXg4A"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_caXNcI9OEeSlz6cOTfDmJg" type="3012">
+          <element xmi:type="uml:Property" href="Modello-Analisi.uml#_cZUEkI9OEeSlz6cOTfDmJg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_caXNcY9OEeSlz6cOTfDmJg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_TaesCIeNEeSaQMis2NXg4A"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_TaesCYeNEeSaQMis2NXg4A"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_TaesCoeNEeSaQMis2NXg4A"/>
