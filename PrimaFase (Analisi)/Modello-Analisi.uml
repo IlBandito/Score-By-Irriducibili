@@ -254,6 +254,8 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vPRQs5pAEeSfrdvxOZfNlw" value="1"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Y3LXkKCGEeSGS-XZm87odQ" name="Package3"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_oudh4KCdEeSGS-XZm87odQ" name="Gestore Login"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TaRQioeNEeSaQMis2NXg4A">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TaRQi4eNEeSaQMis2NXg4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
@@ -1301,7 +1303,7 @@ tragitti (vettore di oggetti tragitti)&#xD;
       <lifeline xmi:type="uml:Lifeline" xmi:id="_P3WkwIg7EeSg5sJLNzbK6A" name="" represents="_P3XL0Ig7EeSg5sJLNzbK6A" coveredBy="_1XMfsInCEeSSJZnQI93ixQ _9qrY0InCEeSSJZnQI93ixQ _luny4InDEeSSJZnQI93ixQ _uhOQ8InDEeSSJZnQI93ixQ _zrWzgYnDEeSSJZnQI93ixQ _2GkRsYnDEeSSJZnQI93ixQ _68HO4YnEEeSSJZnQI93ixQ _PrLe8onFEeSSJZnQI93ixQ _a7umIYnFEeSSJZnQI93ixQ _a73wEInFEeSSJZnQI93ixQ _h0jfIYnFEeSSJZnQI93ixQ _h0jfIonFEeSSJZnQI93ixQ _pfVZgYnFEeSSJZnQI93ixQ _pfVZgonFEeSSJZnQI93ixQ _RJ70kInIEeSSJZnQI93ixQ _cdwnUYnKEeSSJZnQI93ixQ _k9r5oYnNEeSSJZnQI93ixQ _lYNScInNEeSSJZnQI93ixQ _Vwn5gIqREeSJ_df0zjLY0Q _0BNEsZr7EeSxgpX_g_Gy1Q _2m6ispr7EeSxgpX_g_Gy1Q _AJjWkZr8EeSxgpX_g_Gy1Q _AJjWkpr8EeSxgpX_g_Gy1Q _EnqgoZr8EeSxgpX_g_Gy1Q _Enqgopr8EeSxgpX_g_Gy1Q _LRt90Jr8EeSxgpX_g_Gy1Q _LRt90Zr8EeSxgpX_g_Gy1Q _AlC7kpsDEeSemrGyoOpfWQ _DiJl4ZsDEeSemrGyoOpfWQ _HTESwJsDEeSemrGyoOpfWQ _HTESwZsDEeSemrGyoOpfWQ _oySbkZsDEeSemrGyoOpfWQ _oySbkpsDEeSemrGyoOpfWQ"/>
       <lifeline xmi:type="uml:Lifeline" xmi:id="_TUnV0Ig7EeSg5sJLNzbK6A" name="Istanza" represents="_TUnV0Yg7EeSg5sJLNzbK6A" coveredBy="_tROBoInDEeSSJZnQI93ixQ _uhO4AInDEeSSJZnQI93ixQ _ycOt8YnDEeSSJZnQI93ixQ _0GmlEYnDEeSSJZnQI93ixQ _2GuCsInDEeSSJZnQI93ixQ _9mrNIInDEeSSJZnQI93ixQ _wgCEAZr7EeSxgpX_g_Gy1Q _1zWXwJr7EeSxgpX_g_Gy1Q _2m6isZr7EeSxgpX_g_Gy1Q _LRt90Jr8EeSxgpX_g_Gy1Q _LRt90Zr8EeSxgpX_g_Gy1Q _HTESwJsDEeSemrGyoOpfWQ _HTESwZsDEeSemrGyoOpfWQ"/>
       <lifeline xmi:type="uml:Lifeline" xmi:id="_GAieYIhAEeSg5sJLNzbK6A" name="" represents="_GAieYYhAEeSg5sJLNzbK6A" coveredBy="_LRt90Jr8EeSxgpX_g_Gy1Q _LRt90Zr8EeSxgpX_g_Gy1Q _Bt_A8ZsAEeSxgpX_g_Gy1Q _-sQf4JsAEeSemrGyoOpfWQ _HTESwJsDEeSemrGyoOpfWQ _HTESwZsDEeSemrGyoOpfWQ"/>
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_XtvkMJr9EeSxgpX_g_Gy1Q" name="" represents="_XtvkMZr9EeSxgpX_g_Gy1Q" coveredBy="_LRt90Jr8EeSxgpX_g_Gy1Q _LRt90Zr8EeSxgpX_g_Gy1Q _ZcwqwJr9EeSxgpX_g_Gy1Q _ZupsAZr9EeSxgpX_g_Gy1Q _p8O4cZr-EeSxgpX_g_Gy1Q _wQ-M8Zr-EeSxgpX_g_Gy1Q _LUP7IZsBEeSemrGyoOpfWQ _HTESwJsDEeSemrGyoOpfWQ _HTESwZsDEeSemrGyoOpfWQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_XtvkMJr9EeSxgpX_g_Gy1Q" name="" represents="_XtvkMZr9EeSxgpX_g_Gy1Q" coveredBy="_LRt90Jr8EeSxgpX_g_Gy1Q _LRt90Zr8EeSxgpX_g_Gy1Q _ZcwqwJr9EeSxgpX_g_Gy1Q _ZupsAZr9EeSxgpX_g_Gy1Q _p8O4cZr-EeSxgpX_g_Gy1Q _wQ-M8Zr-EeSxgpX_g_Gy1Q _LUP7IZsBEeSemrGyoOpfWQ _HTESwJsDEeSemrGyoOpfWQ _HTESwZsDEeSemrGyoOpfWQ _Yj1WgJswEeSHxb1kI2_9gA _hKlw8ZswEeSHxb1kI2_9gA"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h0jfIonFEeSSJZnQI93ixQ" name="IgnoraFermata_MessageRecv" covered="_P3WkwIg7EeSg5sJLNzbK6A"/>
       <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_jzMO0YhAEeSg5sJLNzbK6A" name="ActionExecSpec0" covered="_K5xQcIg7EeSg5sJLNzbK6A" finish="_MuZaMonEEeSSJZnQI93ixQ" start="_9qqxwInCEeSSJZnQI93ixQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pfVZgYnFEeSSJZnQI93ixQ" name="Message2Send1" covered="_P3WkwIg7EeSg5sJLNzbK6A" message="_pfVZgInFEeSSJZnQI93ixQ"/>
@@ -1387,6 +1389,8 @@ tragitti (vettore di oggetti tragitti)&#xD;
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LUP7IZsBEeSemrGyoOpfWQ" name="Message11Send1" covered="_XtvkMJr9EeSxgpX_g_Gy1Q" message="_LUP7IJsBEeSemrGyoOpfWQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EnqgoZr8EeSxgpX_g_Gy1Q" name="Message10Send0" covered="_P3WkwIg7EeSg5sJLNzbK6A" message="_EnqgoJr8EeSxgpX_g_Gy1Q"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h0jfIYnFEeSSJZnQI93ixQ" name="IgnoraFermata_MessageSend" covered="_P3WkwIg7EeSg5sJLNzbK6A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Yj1WgJswEeSHxb1kI2_9gA" name="Message13Send1" covered="_XtvkMJr9EeSxgpX_g_Gy1Q"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hKlw8ZswEeSHxb1kI2_9gA" name="Message13Send2" covered="_XtvkMJr9EeSxgpX_g_Gy1Q"/>
       <message xmi:type="uml:Message" xmi:id="_9qpjoInCEeSSJZnQI93ixQ" name="Comunica Assenza" receiveEvent="_9qrY0InCEeSSJZnQI93ixQ" sendEvent="_9qqxwInCEeSSJZnQI93ixQ"/>
       <message xmi:type="uml:Message" xmi:id="_uhNC0InDEeSSJZnQI93ixQ" name="fermata = Get_fermata ( ID_dipendente)" receiveEvent="_uhO4AInDEeSSJZnQI93ixQ" sendEvent="_uhOQ8InDEeSSJZnQI93ixQ"/>
       <message xmi:type="uml:Message" xmi:id="_2GkRsInDEeSSJZnQI93ixQ" name="dipendente.azienda = Get_dipendente.azienda ( ID_dipendente )" receiveEvent="_2GuCsInDEeSSJZnQI93ixQ" sendEvent="_2GkRsYnDEeSSJZnQI93ixQ"/>
@@ -1404,6 +1408,7 @@ tragitti (vettore di oggetti tragitti)&#xD;
       <message xmi:type="uml:Message" xmi:id="_bp4FwJsBEeSemrGyoOpfWQ" name="AggiornaTragitto (ID_dipendente,dipendenti,destinazione,t)" receiveEvent="_bp4FwpsBEeSemrGyoOpfWQ" sendEvent="_bp4FwZsBEeSemrGyoOpfWQ"/>
       <message xmi:type="uml:Message" xmi:id="_LD6joJsCEeSemrGyoOpfWQ" name="dipendenti = Get_dipendenti(F,destinazione) // array oggetti dipendente" receiveEvent="_LEDtkJsCEeSemrGyoOpfWQ" sendEvent="_LD6joZsCEeSemrGyoOpfWQ"/>
       <message xmi:type="uml:Message" xmi:id="_oySbkJsDEeSemrGyoOpfWQ" name="Message12" messageSort="reply" receiveEvent="_oySbkpsDEeSemrGyoOpfWQ" sendEvent="_oySbkZsDEeSemrGyoOpfWQ"/>
+      <message xmi:type="uml:Message" xmi:id="_5XD1MKCEEeSGS-XZm87odQ" name="Message13" messageSort="reply"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_qyTaMIg5EeSg5sJLNzbK6A" name="Sistema interazione Dipendente-Sistema" useCase="_zEmAgIg5EeSg5sJLNzbK6A _04aHgIg5EeSg5sJLNzbK6A _38VykIg5EeSg5sJLNzbK6A _9BPP0Ig5EeSg5sJLNzbK6A _GYZMcIg6EeSg5sJLNzbK6A _LWAV8Ig6EeSg5sJLNzbK6A _ONlAAIg6EeSg5sJLNzbK6A">
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zEmAgIg5EeSg5sJLNzbK6A" name="Non Utilizzo Bus" subject="_qyTaMIg5EeSg5sJLNzbK6A"/>
