@@ -16,7 +16,34 @@
             <packagedElement xmi:type="uml:Class" xmi:id="_LaXFsKFNEeStN6g4Q9A8Mg" name="Abbonamento">
               <generalization xmi:type="uml:Generalization" xmi:id="_0UnEwKGREeSIcc_WkGTQqQ" general="_PTodUKFNEeStN6g4Q9A8Mg"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_PTodUKFNEeStN6g4Q9A8Mg" name="Articolo"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_PTodUKFNEeStN6g4Q9A8Mg" name="Articolo">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_ruyIEKSqEeSycbEvaz5oHQ" name="codice" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_txnigKSqEeSycbEvaz5oHQ" name="descrizione" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_NxbHAKSrEeSycbEvaz5oHQ" name="GetCodice">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_VIPHEKSsEeSycbEvaz5oHQ" name="codice" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_OrxPYKSrEeSycbEvaz5oHQ" name="GetDescrizione">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_Q4aQoKSsEeSycbEvaz5oHQ" name="descrizione" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_PgLu4KSrEeSycbEvaz5oHQ" name="SetCodice">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_MceQ0KSsEeSycbEvaz5oHQ" name="codice">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_QTjFgKSrEeSycbEvaz5oHQ" name="SetDescrizione">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_GdrXIKSsEeSycbEvaz5oHQ" name="descrizione">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_TG-MEKFNEeStN6g4Q9A8Mg" name="Gestore Pagamento"/>
             <packagedElement xmi:type="uml:Association" xmi:id="_-lC68KFeEeStN6g4Q9A8Mg" memberEnd="_-lC68aFeEeStN6g4Q9A8Mg _-lBs0KFeEeStN6g4Q9A8Mg" navigableOwnedEnd="_-lC68aFeEeStN6g4Q9A8Mg">
               <ownedEnd xmi:type="uml:Property" xmi:id="_-lC68aFeEeStN6g4Q9A8Mg" name="parte" type="_PTodUKFNEeStN6g4Q9A8Mg" aggregation="composite" association="_-lC68KFeEeStN6g4Q9A8Mg">
@@ -32,7 +59,89 @@
             <packagedElement xmi:type="uml:Usage" xmi:id="_EZXvkKGXEeSIcc_WkGTQqQ" client="_TG-MEKFNEeStN6g4Q9A8Mg" supplier="_cAX1sKFNEeStN6g4Q9A8Mg"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_2wEGUKCbEeSGS-XZm87odQ" name="Creazione e Aggiornamento Tragitto"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_cAX1sKFNEeStN6g4Q9A8Mg" name="Ordine"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cAX1sKFNEeStN6g4Q9A8Mg" name="Ordine">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_lO9TAKSsEeSycbEvaz5oHQ" name="ID" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_wEhuYKSsEeSycbEvaz5oHQ" name="Data" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_w9SiYKSsEeSycbEvaz5oHQ" name="TotaleCosto" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_x3ReYKSsEeSycbEvaz5oHQ" name="Dettagli" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_yoPoUKSsEeSycbEvaz5oHQ" name="Carrello " visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_zfy7YKSsEeSycbEvaz5oHQ" name="Articolo" visibility="private" type="_PTodUKFNEeStN6g4Q9A8Mg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B0NmwKSuEeSycbEvaz5oHQ" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B0ON0KSuEeSycbEvaz5oHQ" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_00nuYKSuEeSycbEvaz5oHQ" name="AggiungiArticolo">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_UbMBkKSxEeSycbEvaz5oHQ" name="AggiungiArticolo" type="_PTodUKFNEeStN6g4Q9A8Mg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_1qF90KSuEeSycbEvaz5oHQ" name="GetID">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Qc18sKSxEeSycbEvaz5oHQ" name="ID">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_2yB2QKSuEeSycbEvaz5oHQ" name="GetData">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_N0YFoKSxEeSycbEvaz5oHQ" name="Data" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_AZVuwKSvEeSycbEvaz5oHQ" name="GetTotaleCosto">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_GbM4oKSxEeSycbEvaz5oHQ" name="TotaleCosto" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_CEYUQKSvEeSycbEvaz5oHQ" name="GetDettagli">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_7O3jEKSwEeSycbEvaz5oHQ" name="Dettagli" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_C4HeUKSvEeSycbEvaz5oHQ" name="GetCarrello">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_2WrFEKSwEeSycbEvaz5oHQ" name="Carrello" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Dd4d0KSvEeSycbEvaz5oHQ" name="GetArticolo">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_YYYsYKSwEeSycbEvaz5oHQ" type="_PTodUKFNEeStN6g4Q9A8Mg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_FF9O4KSvEeSycbEvaz5oHQ" name="SetID">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_zGOA8KSwEeSycbEvaz5oHQ" name="ID">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Fw-h0KSvEeSycbEvaz5oHQ" name="SetData">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_wgi_MKSwEeSycbEvaz5oHQ" name="Data">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_GZ_poKSvEeSycbEvaz5oHQ" name="SetTotaleCosto">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_trFN8KSwEeSycbEvaz5oHQ" name="TotaleCosto">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_HWWkMKSvEeSycbEvaz5oHQ" name="SetDettagli">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_qRZVUKSwEeSycbEvaz5oHQ" name="Dettagli">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_H-bQ0KSvEeSycbEvaz5oHQ" name="SetCarrello">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_jsxxwKSwEeSycbEvaz5oHQ" name="Carrello">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vPs30KSvEeSycbEvaz5oHQ" name="SetArticolo">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_feZFwKSwEeSycbEvaz5oHQ" name="Articolo" type="_PTodUKFNEeStN6g4Q9A8Mg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m7Gu8KSwEeSycbEvaz5oHQ" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m7H9EKSwEeSycbEvaz5oHQ" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_6ICCoKGWEeSIcc_WkGTQqQ" name="Gestore Ordine"/>
           <packagedElement xmi:type="uml:Class" xmi:id="__7eF4KFfEeSLz82iDeDKWA" name="Dipendente"/>
           <packagedElement xmi:type="uml:Association" xmi:id="_oShL4KGREeSIcc_WkGTQqQ" memberEnd="_oShL4aGREeSIcc_WkGTQqQ _oSVlsKGREeSIcc_WkGTQqQ" navigableOwnedEnd="_oShL4aGREeSIcc_WkGTQqQ">
