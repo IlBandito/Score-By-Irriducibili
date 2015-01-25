@@ -12,9 +12,126 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_1EKlMKCbEeSGS-XZm87odQ" name="Acquisto ">
             <packagedElement xmi:type="uml:Class" xmi:id="_z0_W4KFMEeStN6g4Q9A8Mg" name="Biglietto">
               <generalization xmi:type="uml:Generalization" xmi:id="_02j7QKGREeSIcc_WkGTQqQ" general="_PTodUKFNEeStN6g4Q9A8Mg"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_NAvasKTcEeS6tarWbqvfQA" name="Numero" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_N_38cKTcEeS6tarWbqvfQA" name="Data_emissione" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_O7JR4KTcEeS6tarWbqvfQA" name="Prezzo" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_QsbCQKTcEeS6tarWbqvfQA" name="GetNumero">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_2I5Y4KTeEeS6tarWbqvfQA" name="Numero" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_RPnO4KTcEeS6tarWbqvfQA" name="GetData_emissione">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_-uptwKTeEeS6tarWbqvfQA" name="Data_emissione" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_RzKn4KTcEeS6tarWbqvfQA" name="GetPrezzo">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_GYvroKTfEeS6tarWbqvfQA" name="Prezzo" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_SZExUKTcEeS6tarWbqvfQA" name="SetNumero">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_43DoQKTeEeS6tarWbqvfQA" name="Numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_S-w4UKTcEeS6tarWbqvfQA" name="SetData_emissione">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_AzyOQKTfEeS6tarWbqvfQA" name="Data_emissione">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_TseS4KTcEeS6tarWbqvfQA" name="SetPrezzo">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ip8SMKTfEeS6tarWbqvfQA" name="Prezzo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LaXFsKFNEeStN6g4Q9A8Mg" name="Abbonamento">
               <generalization xmi:type="uml:Generalization" xmi:id="_0UnEwKGREeSIcc_WkGTQqQ" general="_PTodUKFNEeStN6g4Q9A8Mg"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_VbzigKTcEeS6tarWbqvfQA" name="Numero" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_WJ7MwKTcEeS6tarWbqvfQA" name="Data_emissione" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_WtBSwKTcEeS6tarWbqvfQA" name="Data_inizio_validità" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_XRBXsKTcEeS6tarWbqvfQA" name="Data_fine_validità" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_X9D-UKTcEeS6tarWbqvfQA" name="Stato" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_Zc9DwKTcEeS6tarWbqvfQA" name="Importo" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_aGd60KTcEeS6tarWbqvfQA" name="GetNumero">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_YxXowKTfEeS6tarWbqvfQA" name="Numero" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_azs0QKTcEeS6tarWbqvfQA" name="GetData_emissione">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_g5VOYKTfEeS6tarWbqvfQA" name="Data_emissione" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_bw5cUKTcEeS6tarWbqvfQA" name="GetData_inizio_validità">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_l0oDsKTfEeS6tarWbqvfQA" name="Data_inizio_validità" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_cXkawKTcEeS6tarWbqvfQA" name="GetData_fine_validità">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_rcqDMKTfEeS6tarWbqvfQA" name="Data_fine_validità" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_dJYSMKTcEeS6tarWbqvfQA" name="GetStato">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_wxs1QKTfEeS6tarWbqvfQA" name="Stato" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_eGHAMKTcEeS6tarWbqvfQA" name="GetImporto">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_4eKxsKTfEeS6tarWbqvfQA" name="Importo" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_epD8QKTcEeS6tarWbqvfQA" name="SetNumero">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_aZL7IKTfEeS6tarWbqvfQA" name="Numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_fLxnwKTcEeS6tarWbqvfQA" name="SetData_emissione">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_jSHDoKTfEeS6tarWbqvfQA" name="Data_emissione">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_gN_5wKTcEeS6tarWbqvfQA" name="SetData_inizio_validità">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_n6vboKTfEeS6tarWbqvfQA" name="Data_inizio_validità">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_hWnusKTcEeS6tarWbqvfQA" name="SetData_fine_validità">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_tt9-gKTfEeS6tarWbqvfQA" name="Data_fine_validità">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_h7yRQKTcEeS6tarWbqvfQA" name="SetStato">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_yraI4KTfEeS6tarWbqvfQA">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_imursKTcEeS6tarWbqvfQA" name="SetImporto">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_7a_vMKTfEeS6tarWbqvfQA" name="Importo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_PTodUKFNEeStN6g4Q9A8Mg" name="Articolo">
               <ownedAttribute xmi:type="uml:Property" xmi:id="_ruyIEKSqEeSycbEvaz5oHQ" name="codice" visibility="private">
@@ -44,7 +161,25 @@
                 </ownedParameter>
               </ownedOperation>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_TG-MEKFNEeStN6g4Q9A8Mg" name="Gestore Pagamento"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_TG-MEKFNEeStN6g4Q9A8Mg" name="Gestore Pagamento">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_qcEQQKTcEeS6tarWbqvfQA" name="Stato_pagamento" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_rc2X0KTcEeS6tarWbqvfQA" name="AggiornaStatoOrdine">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_I1ciIKTgEeS6tarWbqvfQA" name="AggiornaStatoOrdine" type="_6ICCoKGWEeSIcc_WkGTQqQ"/>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_r8mO4KTcEeS6tarWbqvfQA" name="RiceviPagamento"/>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_sx1NwKTcEeS6tarWbqvfQA" name="GetStato_pagamento">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vcwn8KTgEeS6tarWbqvfQA" name="Stato_pagamento" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_tXYK0KTcEeS6tarWbqvfQA" name="SetStato_pagamento">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_X0rhkKTgEeS6tarWbqvfQA" name="Stato_pagamento">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_-lC68KFeEeStN6g4Q9A8Mg" memberEnd="_-lC68aFeEeStN6g4Q9A8Mg _-lBs0KFeEeStN6g4Q9A8Mg" navigableOwnedEnd="_-lC68aFeEeStN6g4Q9A8Mg">
               <ownedEnd xmi:type="uml:Property" xmi:id="_-lC68aFeEeStN6g4Q9A8Mg" name="parte" type="_PTodUKFNEeStN6g4Q9A8Mg" aggregation="composite" association="_-lC68KFeEeStN6g4Q9A8Mg">
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-lC68qFeEeStN6g4Q9A8Mg" value="1"/>
@@ -142,8 +277,35 @@
               </ownedParameter>
             </ownedOperation>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_6ICCoKGWEeSIcc_WkGTQqQ" name="Gestore Ordine"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="__7eF4KFfEeSLz82iDeDKWA" name="Dipendente"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_6ICCoKGWEeSIcc_WkGTQqQ" name="Gestore Ordine">
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_H2VV4KTdEeS6tarWbqvfQA" name="Operation1"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_IecewKTdEeS6tarWbqvfQA" name="Operation2"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="__7eF4KFfEeSLz82iDeDKWA" name="Dipendente">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_JqXfUKTdEeS6tarWbqvfQA" name="Attribute1"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_LO1iwKTdEeS6tarWbqvfQA" name="Attribute2"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_MLVnQKTdEeS6tarWbqvfQA" name="Attribute3"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_NcOnYKTdEeS6tarWbqvfQA" name="Attribute4"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_OIiTwKTdEeS6tarWbqvfQA" name="Attribute5"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_O5--0KTdEeS6tarWbqvfQA" name="Attribute6"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Tv92UKTdEeS6tarWbqvfQA" name="Attribute7"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_UkNWsKTdEeS6tarWbqvfQA" name="Operation1"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_VHJrsKTdEeS6tarWbqvfQA" name="Operation2"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_VtrgMKTdEeS6tarWbqvfQA" name="Operation3"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_WjBz0KTdEeS6tarWbqvfQA" name="Operation4"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_XNlzwKTdEeS6tarWbqvfQA" name="Operation5"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_YgNSMKTdEeS6tarWbqvfQA" name="Operation6"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ZHacIKTdEeS6tarWbqvfQA" name="Operation7"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Zs5HwKTdEeS6tarWbqvfQA" name="Operation8"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_aZ5-wKTdEeS6tarWbqvfQA" name="Operation9"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_a8P20KTdEeS6tarWbqvfQA" name="Operation10"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_bfMy4KTdEeS6tarWbqvfQA" name="Operation11"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_cBH0MKTdEeS6tarWbqvfQA" name="Operation12"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_crrNEKTdEeS6tarWbqvfQA" name="Operation13"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_dL4-MKTdEeS6tarWbqvfQA" name="Operation14"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_d0LGMKTdEeS6tarWbqvfQA" name="Operation15"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_eecyQKTdEeS6tarWbqvfQA" name="Operation16"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_oShL4KGREeSIcc_WkGTQqQ" memberEnd="_oShL4aGREeSIcc_WkGTQqQ _oSVlsKGREeSIcc_WkGTQqQ" navigableOwnedEnd="_oShL4aGREeSIcc_WkGTQqQ">
             <ownedEnd xmi:type="uml:Property" xmi:id="_oShL4aGREeSIcc_WkGTQqQ" name="parte" type="__7eF4KFfEeSLz82iDeDKWA" aggregation="composite" association="_oShL4KGREeSIcc_WkGTQqQ">
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oShL4qGREeSIcc_WkGTQqQ" value="1"/>
@@ -251,7 +413,10 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sw-gkqFXEeStN6g4Q9A8Mg" value="1"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_tBOHkKFNEeStN6g4Q9A8Mg" name="Gestore Navetta"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tBOHkKFNEeStN6g4Q9A8Mg" name="Gestore Navetta">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_1f3KUKTbEeS6tarWbqvfQA" name="CaricaDipendente"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_3A7UcKTbEeS6tarWbqvfQA" name="AssegnaAutista"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_HeMhEJt5EeS5WOy4Y_NoMw" name="Account Web">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_aM3msJt5EeS5WOy4Y_NoMw" name="login_id" visibility="private">
