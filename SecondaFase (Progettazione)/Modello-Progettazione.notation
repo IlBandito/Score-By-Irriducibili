@@ -357,31 +357,6 @@
       <owner xmi:type="uml:Package" href="Modello-Progettazione.uml#_oMWlQKCbEeSGS-XZm87odQ"/>
     </styles>
     <element xmi:type="uml:Package" href="Modello-Progettazione.uml#_oMWlQKCbEeSGS-XZm87odQ"/>
-    <edges xmi:type="notation:Connector" xmi:id="_sxDZEKFXEeStN6g4Q9A8Mg" type="4001" source="_XKkY0KFXEeStN6g4Q9A8Mg" target="_Xllg4KFXEeStN6g4Q9A8Mg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_sxEAIKFXEeStN6g4Q9A8Mg" type="6001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sxEnMKFXEeStN6g4Q9A8Mg" y="-20"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sxEnMaFXEeStN6g4Q9A8Mg" type="6002">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sxFOQKFXEeStN6g4Q9A8Mg" y="20"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sxF1UKFXEeStN6g4Q9A8Mg" visible="false" type="6003">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sxF1UaFXEeStN6g4Q9A8Mg" x="7" y="-81"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sxGcYKFXEeStN6g4Q9A8Mg" visible="false" type="6005">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sxGcYaFXEeStN6g4Q9A8Mg" y="20"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sxHDcKFXEeStN6g4Q9A8Mg" type="6033">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sxHDcaFXEeStN6g4Q9A8Mg" y="20"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sxHqgKFXEeStN6g4Q9A8Mg" type="6034">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sxHqgaFXEeStN6g4Q9A8Mg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_sxDZEaFXEeStN6g4Q9A8Mg"/>
-      <element xmi:type="uml:Association" href="Modello-Progettazione.uml#_sw_usKFXEeStN6g4Q9A8Mg"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sxDZEqFXEeStN6g4Q9A8Mg" points="[6, 11, 0, -128]$[-5, 131, -11, -8]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxT3wKFXEeStN6g4Q9A8Mg" id="(0.5038167938931297,0.9219858156028369)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxUe0KFXEeStN6g4Q9A8Mg" id="(0.11627906976744186,0.06611570247933884)"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_xxvrwKFXEeStN6g4Q9A8Mg" type="4007" source="_jt9n8KFXEeStN6g4Q9A8Mg" target="_YID70KFXEeStN6g4Q9A8Mg">
       <children xmi:type="notation:DecorationNode" xmi:id="_xxw54KFXEeStN6g4Q9A8Mg" type="6016">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_xxw54aFXEeStN6g4Q9A8Mg" y="40"/>
