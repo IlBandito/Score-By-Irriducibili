@@ -707,30 +707,57 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_AhC9MJuDEeS5WOy4Y_NoMw" name="Capienza" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_CR9hMJuDEeS5WOy4Y_NoMw" name="dipendente" visibility="private">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CR9hMJuDEeS5WOy4Y_NoMw" name="Dipendente" visibility="private" type="__7eF4KFfEeSLz82iDeDKWA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_57P4cJuDEeS5WOy4Y_NoMw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_57P4cZuDEeS5WOy4Y_NoMw" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_DXKOsJuDEeS5WOy4Y_NoMw" name="autista" visibility="private" type="_QZMpAJuAEeS5WOy4Y_NoMw"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_E3AQ0JuDEeS5WOy4Y_NoMw" name="tragitto" visibility="private"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_I6NAgJuDEeS5WOy4Y_NoMw" name="SetTarga">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_dfH2EJuDEeS5WOy4Y_NoMw">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_DXKOsJuDEeS5WOy4Y_NoMw" name="Autista" visibility="private" type="_QZMpAJuAEeS5WOy4Y_NoMw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_E3AQ0JuDEeS5WOy4Y_NoMw" name="Tragitto" visibility="private"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_I6NAgJuDEeS5WOy4Y_NoMw" name="GetTarga">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_dfH2EJuDEeS5WOy4Y_NoMw" name="Targa" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_Jq3BYJuDEeS5WOy4Y_NoMw" name="SetCapienza">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Slrx4JuEEeS5WOy4Y_NoMw">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Jq3BYJuDEeS5WOy4Y_NoMw" name="GetCapienza">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Slrx4JuEEeS5WOy4Y_NoMw" name="Capienza" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_KXfd4JuDEeS5WOy4Y_NoMw" name="GetTarga"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_LFnIIJuDEeS5WOy4Y_NoMw" name="Operation4"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_NWjQAJuDEeS5WOy4Y_NoMw" name="Operation5"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_OGcb4JuDEeS5WOy4Y_NoMw" name="Operation6"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_O5LgYJuDEeS5WOy4Y_NoMw" name="Operation7"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_PoL7cJuDEeS5WOy4Y_NoMw" name="Operation8"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_QMVxYJuDEeS5WOy4Y_NoMw" name="Operation9"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_RG1DsJuDEeS5WOy4Y_NoMw" name="Operation107"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_KXfd4JuDEeS5WOy4Y_NoMw" name="GetDipendente">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_RUTuEKZPEeSEs6MTj2PsNQ" name="Dipendente" type="__7eF4KFfEeSLz82iDeDKWA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a92bMKZPEeSEs6MTj2PsNQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a93pUKZPEeSEs6MTj2PsNQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_LFnIIJuDEeS5WOy4Y_NoMw" name="GetAutista">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_hPpwcKZPEeSEs6MTj2PsNQ" name="Autista" type="_QZMpAJuAEeS5WOy4Y_NoMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_NWjQAJuDEeS5WOy4Y_NoMw" name="GetTragitto">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_pDVvMKZPEeSEs6MTj2PsNQ" name="Tragitto" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_OGcb4JuDEeS5WOy4Y_NoMw" name="SetTarga">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_wfibAKZPEeSEs6MTj2PsNQ" name="Targa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_O5LgYJuDEeS5WOy4Y_NoMw" name="SetCapienza">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_0xmtIKZPEeSEs6MTj2PsNQ" name="Capienza">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_PoL7cJuDEeS5WOy4Y_NoMw" name="SetDipendente">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_5gXiUKZPEeSEs6MTj2PsNQ" name="Dipendente" type="__7eF4KFfEeSLz82iDeDKWA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_QMVxYJuDEeS5WOy4Y_NoMw" name="SetAutista">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_j9XT4KZPEeSEs6MTj2PsNQ" name="Autista" type="_QZMpAJuAEeS5WOy4Y_NoMw"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_8hRkAKZOEeSEs6MTj2PsNQ" name="SetTragitto">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_tZ8jEKZPEeSEs6MTj2PsNQ" name="Tragitto">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_4LBjAKFMEeStN6g4Q9A8Mg" name="Gestore Tragitto">
         <ownedOperation xmi:type="uml:Operation" xmi:id="_TXdToKV1EeSy2dZjf6d_xA" name="OttimizzaTragitto"/>
