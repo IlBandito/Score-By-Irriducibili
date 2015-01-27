@@ -575,42 +575,130 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_lrpMEKGYEeSIcc_WkGTQqQ" name="Tragitto ">
       <packagedElement xmi:type="uml:Class" xmi:id="_LSweUKFMEeStN6g4Q9A8Mg" name="Tragitto">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="__sxcQKV1EeSy2dZjf6d_xA" name="ID" visibility="private"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Az41UKV2EeSy2dZjf6d_xA" name="NumeroFermate" visibility="private"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_B3dLIKV2EeSy2dZjf6d_xA" name="Stato" visibility="private"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Cy9xIKV2EeSy2dZjf6d_xA" name="Capolinea" visibility="private"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_EJKIAKV2EeSy2dZjf6d_xA" name="Partenza" visibility="private"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__sxcQKV1EeSy2dZjf6d_xA" name="ID" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Az41UKV2EeSy2dZjf6d_xA" name="NumeroFermate" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_B3dLIKV2EeSy2dZjf6d_xA" name="Stato" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Cy9xIKV2EeSy2dZjf6d_xA" name="Capolinea" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_EJKIAKV2EeSy2dZjf6d_xA" name="Partenza" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_FI3RgKV2EeSy2dZjf6d_xA" name="EliminaFermata"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_GIdGQKV2EeSy2dZjf6d_xA" name="GetID"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_G1DGgKV2EeSy2dZjf6d_xA" name="GetNumeroFermate"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_HrjQsKV2EeSy2dZjf6d_xA" name="GetStato"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_IvkScKV2EeSy2dZjf6d_xA" name="GetCapolinea"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_JjzLwKV2EeSy2dZjf6d_xA" name="GetPartenza"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_KWl6oKV2EeSy2dZjf6d_xA" name="SetID"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_LFzxEKV2EeSy2dZjf6d_xA" name="SetNumeroFermate"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_L1YM0KV2EeSy2dZjf6d_xA" name="SetStato"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_MqkvcKV2EeSy2dZjf6d_xA" name="SetCapolinea"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_Ohf00KV2EeSy2dZjf6d_xA" name="SetPartenza"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_GIdGQKV2EeSy2dZjf6d_xA" name="GetID">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_w8dI4KZBEeS7B5ly7YJR_A" name="ID" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_G1DGgKV2EeSy2dZjf6d_xA" name="GetNumeroFermate">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_2clJkKZBEeS7B5ly7YJR_A" name="NumeroFermate" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_HrjQsKV2EeSy2dZjf6d_xA" name="GetStato">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_8uEVwKZBEeS7B5ly7YJR_A" name="Stato" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_IvkScKV2EeSy2dZjf6d_xA" name="GetCapolinea">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_C-hnMKZCEeS7B5ly7YJR_A" name="Capolinea" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_JjzLwKV2EeSy2dZjf6d_xA" name="GetPartenza">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_JEh8IKZCEeS7B5ly7YJR_A" name="Partenza" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_KWl6oKV2EeSy2dZjf6d_xA" name="SetID">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_zsHNEKZBEeS7B5ly7YJR_A" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_LFzxEKV2EeSy2dZjf6d_xA" name="SetNumeroFermate">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_5udxEKZBEeS7B5ly7YJR_A" name="NumeroFermate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_L1YM0KV2EeSy2dZjf6d_xA" name="SetStato">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="__8OT0KZBEeS7B5ly7YJR_A" name="Stato">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_MqkvcKV2EeSy2dZjf6d_xA" name="SetCapolinea">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_FKquoKZCEeS7B5ly7YJR_A" name="Capolinea">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Ohf00KV2EeSy2dZjf6d_xA" name="SetPartenza">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_LEK4oKZCEeS7B5ly7YJR_A" name="Partenza">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_hR52MKFMEeStN6g4Q9A8Mg" name="Fermata">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_9MWt8KV1EeSy2dZjf6d_xA" name="Via/Locazione" visibility="private"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_9MWt8KV1EeSy2dZjf6d_xA" name="Via/Locazione" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hkhkYKV3EeSy2dZjf6d_xA" name="Tragitto" visibility="private" type="_LSweUKFMEeStN6g4Q9A8Mg">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqRDYKV5EeSy2dZjf6d_xA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqSRgKV5EeSy2dZjf6d_xA" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_igIRAKV3EeSy2dZjf6d_xA" name="Dipendente" visibility="private"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_jRFz4KV3EeSy2dZjf6d_xA" name="Stato_fermata" visibility="private"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_kIxCwKV3EeSy2dZjf6d_xA" name="Numero_dipendenti_fermata" visibility="private"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_k_1NoKV3EeSy2dZjf6d_xA" name="GetVia/Locazione"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_l0wDcKV3EeSy2dZjf6d_xA" name="GetTragitto"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_mo1LwKV3EeSy2dZjf6d_xA" name="GetDipendete"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_ne87cKV3EeSy2dZjf6d_xA" name="GetStato_fermata"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_odKQIKV3EeSy2dZjf6d_xA" name="GetNumero_dipendenti_fermata"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_prKUUKV3EeSy2dZjf6d_xA" name="SetVia/Locazione"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_qq7vQKV3EeSy2dZjf6d_xA" name="SetTragitto"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_sQFvMKV3EeSy2dZjf6d_xA" name="SetDipendente"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_tE4pMKV3EeSy2dZjf6d_xA" name="SetStato_fermata"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_ujJ-AKV3EeSy2dZjf6d_xA" name="SetNumero_dipendenti_fermata"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_igIRAKV3EeSy2dZjf6d_xA" name="Dipendente" visibility="private" type="__7eF4KFfEeSLz82iDeDKWA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jRFz4KV3EeSy2dZjf6d_xA" name="Stato_fermata" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_kIxCwKV3EeSy2dZjf6d_xA" name="Numero_dipendenti_fermata" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_k_1NoKV3EeSy2dZjf6d_xA" name="GetVia/Locazione">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_rppWAKZCEeS7B5ly7YJR_A" name="Via/Locazione" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_l0wDcKV3EeSy2dZjf6d_xA" name="GetTragitto">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_RYF4UKZDEeS7B5ly7YJR_A" name="Tragitto" type="_LSweUKFMEeStN6g4Q9A8Mg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_mo1LwKV3EeSy2dZjf6d_xA" name="GetDipendente">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_bTIlIKZDEeS7B5ly7YJR_A" name="Dipendente" type="__7eF4KFfEeSLz82iDeDKWA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ne87cKV3EeSy2dZjf6d_xA" name="GetStato_fermata">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_hkAtUKZDEeS7B5ly7YJR_A" name="Stato_fermata" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_odKQIKV3EeSy2dZjf6d_xA" name="GetNumero_dipendenti_fermata">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_nWTcEKZDEeS7B5ly7YJR_A" name="Numero_dipendenti_fermata" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_prKUUKV3EeSy2dZjf6d_xA" name="SetVia/Locazione">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_t3AlcKZCEeS7B5ly7YJR_A" name="Via/Locazione">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_qq7vQKV3EeSy2dZjf6d_xA" name="SetTragitto">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Tj5okKZDEeS7B5ly7YJR_A" name="Tragitto" type="_LSweUKFMEeStN6g4Q9A8Mg"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_sQFvMKV3EeSy2dZjf6d_xA" name="SetDipendente">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_dt_eAKZDEeS7B5ly7YJR_A" name="Dipendente" type="__7eF4KFfEeSLz82iDeDKWA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_tE4pMKV3EeSy2dZjf6d_xA" name="SetStato_fermata">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_j_QnwKZDEeS7B5ly7YJR_A" name="Stato_fermata">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ujJ-AKV3EeSy2dZjf6d_xA" name="SetNumero_dipendenti_fermata">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_pyrX4KZDEeS7B5ly7YJR_A" name="Numero_dipendenti_fermata">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_9LNp0JuCEeS5WOy4Y_NoMw" name="Navetta">
         <ownedAttribute xmi:type="uml:Property" xmi:id="__MWbIJuCEeS5WOy4Y_NoMw" name="Targa" visibility="private">
@@ -635,7 +723,7 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_KXfd4JuDEeS5WOy4Y_NoMw" name="Operation3"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_KXfd4JuDEeS5WOy4Y_NoMw" name="GetTarga"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_LFnIIJuDEeS5WOy4Y_NoMw" name="Operation4"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_NWjQAJuDEeS5WOy4Y_NoMw" name="Operation5"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_OGcb4JuDEeS5WOy4Y_NoMw" name="Operation6"/>
