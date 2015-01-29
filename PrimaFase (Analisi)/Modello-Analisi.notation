@@ -625,7 +625,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Taesf4eNEeSaQMis2NXg4A"/>
       </children>
       <element xmi:type="uml:Class" href="Modello-Analisi.uml#_TaRQcIeNEeSaQMis2NXg4A"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Taesg4eNEeSaQMis2NXg4A" x="-320" y="-344"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Taesg4eNEeSaQMis2NXg4A" x="-320" y="-344" height="188"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_TaeshIeNEeSaQMis2NXg4A" type="2008">
       <children xmi:type="notation:DecorationNode" xmi:id="_TaeshYeNEeSaQMis2NXg4A" type="5029"/>
