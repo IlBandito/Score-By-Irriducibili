@@ -1405,7 +1405,7 @@ tragitti (vettore di oggetti tragitti)&#xD;
       <message xmi:type="uml:Message" xmi:id="_Qkt2kJr-EeSxgpX_g_Gy1Q" name="Message11" messageSort="reply" receiveEvent="_Qkt2kpr-EeSxgpX_g_Gy1Q" sendEvent="_Qkt2kZr-EeSxgpX_g_Gy1Q"/>
       <message xmi:type="uml:Message" xmi:id="_RzsyMJr-EeSxgpX_g_Gy1Q" name="destinazione = Get_fermata (dipendente.azienda)" receiveEvent="_Rz18IZr-EeSxgpX_g_Gy1Q" sendEvent="_Rz18IJr-EeSxgpX_g_Gy1Q"/>
       <message xmi:type="uml:Message" xmi:id="_LUP7IJsBEeSemrGyoOpfWQ" name="Message11" messageSort="reply" sendEvent="_LUP7IZsBEeSemrGyoOpfWQ"/>
-      <message xmi:type="uml:Message" xmi:id="_bp4FwJsBEeSemrGyoOpfWQ" name="AggiornaTragitto (ID_dipendente,dipendenti,destinazione,t)" receiveEvent="_bp4FwpsBEeSemrGyoOpfWQ" sendEvent="_bp4FwZsBEeSemrGyoOpfWQ"/>
+      <message xmi:type="uml:Message" xmi:id="_bp4FwJsBEeSemrGyoOpfWQ" name="AggiornaTragitto (ID_dipendente,dipendenti,t,Boolean switch)" receiveEvent="_bp4FwpsBEeSemrGyoOpfWQ" sendEvent="_bp4FwZsBEeSemrGyoOpfWQ"/>
       <message xmi:type="uml:Message" xmi:id="_LD6joJsCEeSemrGyoOpfWQ" name="dipendenti = Get_dipendenti(F,destinazione) // array oggetti dipendente" receiveEvent="_LEDtkJsCEeSemrGyoOpfWQ" sendEvent="_LD6joZsCEeSemrGyoOpfWQ"/>
       <message xmi:type="uml:Message" xmi:id="_oySbkJsDEeSemrGyoOpfWQ" name="Message12" messageSort="reply" receiveEvent="_oySbkpsDEeSemrGyoOpfWQ" sendEvent="_oySbkZsDEeSemrGyoOpfWQ"/>
       <message xmi:type="uml:Message" xmi:id="_5XD1MKCEEeSGS-XZm87odQ" name="Message13" messageSort="reply"/>
