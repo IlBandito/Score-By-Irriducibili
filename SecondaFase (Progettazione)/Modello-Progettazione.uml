@@ -752,6 +752,7 @@ in particolare il suo ID_Dipendente</body>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_kIxCwKV3EeSy2dZjf6d_xA" name="Numero_dipendenti_fermata" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xWvgsK1eEeSr0fYoNy-Ynw" name="ID_Fermata"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_k_1NoKV3EeSy2dZjf6d_xA" name="GetVia/Locazione">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_rppWAKZCEeS7B5ly7YJR_A" name="Via/Locazione" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -846,6 +847,7 @@ in particolare il suo ID_Dipendente</body>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_TXdToKV1EeSy2dZjf6d_xA" name="AggiornaTragitto"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_USR9IKV1EeSy2dZjf6d_xA" name="RimuoviFermata"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_VGKRIKV1EeSy2dZjf6d_xA" name="IgnoraFermata"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_8Xq3gK1eEeSr0fYoNy-Ynw" name="Operation1"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="_xxsocKFXEeStN6g4Q9A8Mg" client="_tBOHkKFNEeStN6g4Q9A8Mg" supplier="_9LNp0JuCEeS5WOy4Y_NoMw"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_N7BRUKFdEeStN6g4Q9A8Mg" client="_tBOHkKFNEeStN6g4Q9A8Mg" supplier="_QZMpAJuAEeS5WOy4Y_NoMw"/>
@@ -873,8 +875,9 @@ in particolare il suo ID_Dipendente</body>
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="_NaPHIKb9EeSqTMd2-QSJag" client="_4LBjAKFMEeStN6g4Q9A8Mg" supplier="_LSweUKFMEeStN6g4Q9A8Mg"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_QVG80Kb9EeSqTMd2-QSJag" client="_4LBjAKFMEeStN6g4Q9A8Mg" supplier="_hR52MKFMEeStN6g4Q9A8Mg"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_FOH58KcAEeSqTMd2-QSJag" name="Sosta">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_YFvDsKcBEeSqTMd2-QSJag" name="orario"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_FOH58KcAEeSqTMd2-QSJag" name="Zona">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_YFvDsKcBEeSqTMd2-QSJag" name="ID"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TcOYQK1fEeSr0fYoNy-Ynw" name="raggioKM"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_Jq5x06cBEeSqTMd2-QSJag" memberEnd="_Jq5x1KcBEeSqTMd2-QSJag _Jq5x0KcBEeSqTMd2-QSJag" navigableOwnedEnd="_Jq5x0KcBEeSqTMd2-QSJag">
         <ownedEnd xmi:type="uml:Property" xmi:id="_Jq5x1KcBEeSqTMd2-QSJag" name="tutto" type="_LSweUKFMEeStN6g4Q9A8Mg" association="_Jq5x06cBEeSqTMd2-QSJag">
@@ -883,17 +886,17 @@ in particolare il suo ID_Dipendente</body>
         </ownedEnd>
         <ownedEnd xmi:type="uml:Property" xmi:id="_Jq5x0KcBEeSqTMd2-QSJag" name="parte" type="_FOH58KcAEeSqTMd2-QSJag" aggregation="composite" association="_Jq5x06cBEeSqTMd2-QSJag">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jq5x0acBEeSqTMd2-QSJag" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jq5x0qcBEeSqTMd2-QSJag" value="*"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jq5x0qcBEeSqTMd2-QSJag" value="8"/>
         </ownedEnd>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_heuMUKcBEeSqTMd2-QSJag" memberEnd="_heuMUacBEeSqTMd2-QSJag _helCYKcBEeSqTMd2-QSJag" navigableOwnedEnd="_helCYKcBEeSqTMd2-QSJag">
         <ownedEnd xmi:type="uml:Property" xmi:id="_heuMUacBEeSqTMd2-QSJag" name="tutto" type="_FOH58KcAEeSqTMd2-QSJag" association="_heuMUKcBEeSqTMd2-QSJag">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_heuMUqcBEeSqTMd2-QSJag" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_heuMU6cBEeSqTMd2-QSJag" value="*"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_heuMU6cBEeSqTMd2-QSJag" value="1"/>
         </ownedEnd>
         <ownedEnd xmi:type="uml:Property" xmi:id="_helCYKcBEeSqTMd2-QSJag" name="parte" type="_hR52MKFMEeStN6g4Q9A8Mg" aggregation="shared" association="_heuMUKcBEeSqTMd2-QSJag">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_helCYacBEeSqTMd2-QSJag" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_helCYqcBEeSqTMd2-QSJag" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_helCYqcBEeSqTMd2-QSJag" value="8"/>
         </ownedEnd>
       </packagedElement>
     </packagedElement>

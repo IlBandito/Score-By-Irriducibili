@@ -2538,7 +2538,7 @@
               <layoutConstraint xmi:type="notation:Location" xmi:id="_ZcwqxZr9EeSxgpX_g_Gy1Q" x="18" y="18"/>
             </children>
             <element xmi:type="uml:BehaviorExecutionSpecification" href="Modello-Analisi.uml#_ZcwqwJr9EeSxgpX_g_Gy1Q"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zcwqw5r9EeSxgpX_g_Gy1Q" x="31" y="471" width="16" height="33"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zcwqw5r9EeSxgpX_g_Gy1Q" x="31" y="467" width="16" height="33"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_ZupsA5r9EeSxgpX_g_Gy1Q" type="3003">
             <children xmi:type="notation:DecorationNode" xmi:id="_ZupsBZr9EeSxgpX_g_Gy1Q" type="BehaviorExecutionSpecification_Behavior">
