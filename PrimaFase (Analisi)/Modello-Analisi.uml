@@ -59,7 +59,6 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_TaQpD4eNEeSaQMis2NXg4A" name="Navetta">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaQpEIeNEeSaQMis2NXg4A" name="Targa"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaQpEYeNEeSaQMis2NXg4A" name="Capienza"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TaQpEoeNEeSaQMis2NXg4A" name="NumeroDipendenti"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaQpFIeNEeSaQMis2NXg4A" name="dipendente" type="_TaQo84eNEeSaQMis2NXg4A" association="_TaRP-oeNEeSaQMis2NXg4A">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TaQpFYeNEeSaQMis2NXg4A"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TaQpFoeNEeSaQMis2NXg4A" value="*"/>
@@ -102,7 +101,6 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_TaRQBYeNEeSaQMis2NXg4A" name="Azienda">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQBoeNEeSaQMis2NXg4A" name="Nome"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQB4eNEeSaQMis2NXg4A" name="IndirizzoSede"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQCIeNEeSaQMis2NXg4A" name="Num_Dipendenti"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQCYeNEeSaQMis2NXg4A" name="dipendente" type="_TaQo84eNEeSaQMis2NXg4A" association="_TaRQH4eNEeSaQMis2NXg4A">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TaRQCoeNEeSaQMis2NXg4A" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TaRQC4eNEeSaQMis2NXg4A" value="*"/>
@@ -110,6 +108,10 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_vPHfsJpAEeSfrdvxOZfNlw" name="fermata" type="_TaRQdIeNEeSaQMis2NXg4A" association="_vPRQsJpAEeSfrdvxOZfNlw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vPHfsZpAEeSfrdvxOZfNlw" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vPHfsppAEeSfrdvxOZfNlw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0jZBgLIBEeSSxuD2_JCqIQ" name="tragitto" type="_TaRQDYeNEeSaQMis2NXg4A" association="_0jZBg7IBEeSSxuD2_JCqIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0jZBgbIBEeSSxuD2_JCqIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0jZBgrIBEeSSxuD2_JCqIQ" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TaRQDIeNEeSaQMis2NXg4A" name="create"/>
     </packagedElement>
@@ -222,7 +224,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TaRQe4eNEeSaQMis2NXg4A" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TaRQfIeNEeSaQMis2NXg4A" name="Stato fermata"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_y3gicInIEeSSJZnQI93ixQ" name="Numero dipendenti per fermata"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TaRQfYeNEeSaQMis2NXg4A" name="create"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_TaRQfoeNEeSaQMis2NXg4A" client="_TaRQF4eNEeSaQMis2NXg4A" supplier="_TaRQdIeNEeSaQMis2NXg4A"/>
@@ -256,6 +257,13 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Y3LXkKCGEeSGS-XZm87odQ" name="Package3"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_oudh4KCdEeSGS-XZm87odQ" name="Gestore Login"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_0jZBg7IBEeSSxuD2_JCqIQ" memberEnd="_0jZBhLIBEeSSxuD2_JCqIQ _0jZBgLIBEeSSxuD2_JCqIQ">
+      <name xsi:nil="true"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_0jZBhLIBEeSSxuD2_JCqIQ" name="azienda" type="_TaRQBYeNEeSaQMis2NXg4A" association="_0jZBg7IBEeSSxuD2_JCqIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0jZBhbIBEeSSxuD2_JCqIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0jZBhrIBEeSSxuD2_JCqIQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TaRQioeNEeSaQMis2NXg4A">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TaRQi4eNEeSaQMis2NXg4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
