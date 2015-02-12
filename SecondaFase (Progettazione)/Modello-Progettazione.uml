@@ -468,6 +468,32 @@ lancia AggiornamentoTragitto ( true, dipendente) ;</body>
                 <node xmi:type="uml:MergeNode" xmi:id="_Z_Oz4LHhEeSe48y0SLwwzw" name="MergeNode4" incoming="_bfDn4LHhEeSe48y0SLwwzw _cEdbALHhEeSe48y0SLwwzw" outgoing="_h0YyQLHhEeSe48y0SLwwzw"/>
                 <node xmi:type="uml:MergeNode" xmi:id="_hIk1ILHhEeSe48y0SLwwzw" name="MergeNode5" incoming="_h0YyQLHhEeSe48y0SLwwzw _jL27gLHhEeSe48y0SLwwzw" outgoing="_3yg2cLHhEeSe48y0SLwwzw"/>
               </packagedElement>
+              <packagedElement xmi:type="uml:Activity" xmi:id="_zz5ikLLjEeSdPt2SFjW8ow" name="Algoritmo AggiornaTragitto ( )" node="_kzfzkLLlEeSdPt2SFjW8ow _mCBcMLLlEeSdPt2SFjW8ow _mSResLLlEeSdPt2SFjW8ow _mgRecLLlEeSdPt2SFjW8ow _muSFQLLlEeSdPt2SFjW8ow _ugmyELLlEeSdPt2SFjW8ow _FvxAULLmEeSdPt2SFjW8ow _KqM6ALLmEeSdPt2SFjW8ow _8yBz0LLmEeSdPt2SFjW8ow">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_GHqN0LLkEeSdPt2SFjW8ow">
+                  <body>AggiornaTragitt(Dipendente dipendente, Boolean switch)&#xD;
+Se l'input switch = false siamo nel caso l'utente comunica di non usare il servizio navetta&#xD;
+dunque il sistema proverà ad eliminare una fermata dal tragitto. Altrimenti il metodo cerca&#xD;
+subito di ricalcolare l'ordine con cui la navetta attraverserà le le zone del tragitto. &#xD;
+Per far questo sfrutterà la distanza tra centro zona e destinazione finale tragitto (azienda).&#xD;
+</body>
+                </ownedComment>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_wvz0kLLlEeSdPt2SFjW8ow" target="_ugmyELLlEeSdPt2SFjW8ow" source="_mCBcMLLlEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_xQ5IYLLlEeSdPt2SFjW8ow" target="_mCBcMLLlEeSdPt2SFjW8ow" source="_kzfzkLLlEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_z4sRELLlEeSdPt2SFjW8ow" name="switch = true" target="_mSResLLlEeSdPt2SFjW8ow" source="_ugmyELLlEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_0r86ALLlEeSdPt2SFjW8ow" name="switch = false" target="_muSFQLLlEeSdPt2SFjW8ow" source="_ugmyELLlEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_HYFB8LLmEeSdPt2SFjW8ow" target="_FvxAULLmEeSdPt2SFjW8ow" source="_muSFQLLlEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_MTGxgLLmEeSdPt2SFjW8ow" name="NumDipendentiFermata = 1" target="_mgRecLLlEeSdPt2SFjW8ow" source="_FvxAULLmEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_MtVPYLLmEeSdPt2SFjW8ow" name="else" target="_KqM6ALLmEeSdPt2SFjW8ow" source="_FvxAULLmEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:InitialNode" xmi:id="_kzfzkLLlEeSdPt2SFjW8ow" name="InitialNode1" outgoing="_xQ5IYLLlEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_mCBcMLLlEeSdPt2SFjW8ow" name="Seleziona tragitto del dipendente in input" incoming="_xQ5IYLLlEeSdPt2SFjW8ow" outgoing="_wvz0kLLlEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_mSResLLlEeSdPt2SFjW8ow" name="Ottieni zone associate al tragitto" incoming="_z4sRELLlEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_mgRecLLlEeSdPt2SFjW8ow" name="Cancella fermata e ricalcola centro zona" incoming="_MTGxgLLmEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_muSFQLLlEeSdPt2SFjW8ow" name="Trova tutti i dipendenti che condividono la fermata del dipendente in input" incoming="_0r86ALLlEeSdPt2SFjW8ow" outgoing="_HYFB8LLmEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:DecisionNode" xmi:id="_ugmyELLlEeSdPt2SFjW8ow" name="DecisionNode1" incoming="_wvz0kLLlEeSdPt2SFjW8ow" outgoing="_z4sRELLlEeSdPt2SFjW8ow _0r86ALLlEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:DecisionNode" xmi:id="_FvxAULLmEeSdPt2SFjW8ow" name="DecisionNode2" incoming="_HYFB8LLmEeSdPt2SFjW8ow" outgoing="_MTGxgLLmEeSdPt2SFjW8ow _MtVPYLLmEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_KqM6ALLmEeSdPt2SFjW8ow" name="Elimina associazione dipendente alla fermata edopo??? quando riaggirono??" incoming="_MtVPYLLmEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_8yBz0LLmEeSdPt2SFjW8ow" name="Calcola centro zona più distante dalla destinazione"/>
+              </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_cAX1sKFNEeStN6g4Q9A8Mg" name="Ordine">
               <ownedAttribute xmi:type="uml:Property" xmi:id="_lO9TAKSsEeSycbEvaz5oHQ" name="ID" visibility="private">
@@ -898,6 +924,7 @@ lancia AggiornamentoTragitto ( true, dipendente) ;</body>
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_pBq1ULICEeSSxuD2_JCqIQ" name="create"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_9LNp0JuCEeS5WOy4Y_NoMw" name="Navetta">
           <ownedAttribute xmi:type="uml:Property" xmi:id="__MWbIJuCEeS5WOy4Y_NoMw" name="Targa" visibility="private">
