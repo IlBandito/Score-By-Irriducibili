@@ -468,13 +468,20 @@ lancia AggiornamentoTragitto ( true, dipendente) ;</body>
                 <node xmi:type="uml:MergeNode" xmi:id="_Z_Oz4LHhEeSe48y0SLwwzw" name="MergeNode4" incoming="_bfDn4LHhEeSe48y0SLwwzw _cEdbALHhEeSe48y0SLwwzw" outgoing="_h0YyQLHhEeSe48y0SLwwzw"/>
                 <node xmi:type="uml:MergeNode" xmi:id="_hIk1ILHhEeSe48y0SLwwzw" name="MergeNode5" incoming="_h0YyQLHhEeSe48y0SLwwzw _jL27gLHhEeSe48y0SLwwzw" outgoing="_3yg2cLHhEeSe48y0SLwwzw"/>
               </packagedElement>
-              <packagedElement xmi:type="uml:Activity" xmi:id="_zz5ikLLjEeSdPt2SFjW8ow" name="Algoritmo AggiornaTragitto ( )" node="_kzfzkLLlEeSdPt2SFjW8ow _mCBcMLLlEeSdPt2SFjW8ow _mSResLLlEeSdPt2SFjW8ow _mgRecLLlEeSdPt2SFjW8ow _muSFQLLlEeSdPt2SFjW8ow _ugmyELLlEeSdPt2SFjW8ow _FvxAULLmEeSdPt2SFjW8ow _KqM6ALLmEeSdPt2SFjW8ow _8yBz0LLmEeSdPt2SFjW8ow">
+              <packagedElement xmi:type="uml:Activity" xmi:id="_zz5ikLLjEeSdPt2SFjW8ow" name="Algoritmo AggiornaTragitto ( )" node="_kzfzkLLlEeSdPt2SFjW8ow _mCBcMLLlEeSdPt2SFjW8ow _mSResLLlEeSdPt2SFjW8ow _mgRecLLlEeSdPt2SFjW8ow _muSFQLLlEeSdPt2SFjW8ow _ugmyELLlEeSdPt2SFjW8ow _FvxAULLmEeSdPt2SFjW8ow _KqM6ALLmEeSdPt2SFjW8ow _tYcMgLNbEeSxYawDU7_VNg _99uHQLNcEeSxYawDU7_VNg _P1lgsLNdEeSxYawDU7_VNg _6mZwsLNdEeSxYawDU7_VNg" group="_99uHQLNcEeSxYawDU7_VNg">
                 <ownedComment xmi:type="uml:Comment" xmi:id="_GHqN0LLkEeSdPt2SFjW8ow">
                   <body>AggiornaTragitt(Dipendente dipendente, Boolean switch)&#xD;
 Se l'input switch = false siamo nel caso l'utente comunica di non usare il servizio navetta&#xD;
 dunque il sistema proverà ad eliminare una fermata dal tragitto. Altrimenti il metodo cerca&#xD;
 subito di ricalcolare l'ordine con cui la navetta attraverserà le le zone del tragitto. &#xD;
 Per far questo sfrutterà la distanza tra centro zona e destinazione finale tragitto (azienda).&#xD;
+</body>
+                </ownedComment>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_IRaaELNcEeSxYawDU7_VNg"/>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_IlFkALNcEeSxYawDU7_VNg"/>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_I900ILNcEeSxYawDU7_VNg"/>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_aSzGcLNdEeSxYawDU7_VNg" annotatedElement="_99uHQLNcEeSxYawDU7_VNg">
+                  <body>Fintantochè ci sono centri-zona da elaborare&#xD;
 </body>
                 </ownedComment>
                 <edge xmi:type="uml:ControlFlow" xmi:id="_wvz0kLLlEeSdPt2SFjW8ow" target="_ugmyELLlEeSdPt2SFjW8ow" source="_mCBcMLLlEeSdPt2SFjW8ow"/>
@@ -484,15 +491,26 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
                 <edge xmi:type="uml:ControlFlow" xmi:id="_HYFB8LLmEeSdPt2SFjW8ow" target="_FvxAULLmEeSdPt2SFjW8ow" source="_muSFQLLlEeSdPt2SFjW8ow"/>
                 <edge xmi:type="uml:ControlFlow" xmi:id="_MTGxgLLmEeSdPt2SFjW8ow" name="NumDipendentiFermata = 1" target="_mgRecLLlEeSdPt2SFjW8ow" source="_FvxAULLmEeSdPt2SFjW8ow"/>
                 <edge xmi:type="uml:ControlFlow" xmi:id="_MtVPYLLmEeSdPt2SFjW8ow" name="else" target="_KqM6ALLmEeSdPt2SFjW8ow" source="_FvxAULLmEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_DEz84LNdEeSxYawDU7_VNg" target="_tYcMgLNbEeSxYawDU7_VNg" source="_mSResLLlEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_D3ev8LNdEeSxYawDU7_VNg" target="_99uHQLNcEeSxYawDU7_VNg" source="_tYcMgLNbEeSxYawDU7_VNg"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_hxcpULNdEeSxYawDU7_VNg" target="_mSResLLlEeSdPt2SFjW8ow" source="_mgRecLLlEeSdPt2SFjW8ow"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_xN_24LNdEeSxYawDU7_VNg" target="_P1lgsLNdEeSxYawDU7_VNg" source="_99uHQLNcEeSxYawDU7_VNg"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_9iw0ILNdEeSxYawDU7_VNg" target="_6mZwsLNdEeSxYawDU7_VNg" source="_P1lgsLNdEeSxYawDU7_VNg"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_AwtW0LNeEeSxYawDU7_VNg" target="_6mZwsLNdEeSxYawDU7_VNg" source="_KqM6ALLmEeSdPt2SFjW8ow"/>
+                <structuredNode xmi:type="uml:LoopNode" xmi:id="_99uHQLNcEeSxYawDU7_VNg" name="LoopNode1" incoming="_D3ev8LNdEeSxYawDU7_VNg" outgoing="_xN_24LNdEeSxYawDU7_VNg">
+                  <node xmi:type="uml:OpaqueAction" xmi:id="_8yBz0LLmEeSdPt2SFjW8ow" name="associa a destinazione della zona il centro più vicino a centro corrente;"/>
+                </structuredNode>
                 <node xmi:type="uml:InitialNode" xmi:id="_kzfzkLLlEeSdPt2SFjW8ow" name="InitialNode1" outgoing="_xQ5IYLLlEeSdPt2SFjW8ow"/>
                 <node xmi:type="uml:OpaqueAction" xmi:id="_mCBcMLLlEeSdPt2SFjW8ow" name="Seleziona tragitto del dipendente in input" incoming="_xQ5IYLLlEeSdPt2SFjW8ow" outgoing="_wvz0kLLlEeSdPt2SFjW8ow"/>
-                <node xmi:type="uml:OpaqueAction" xmi:id="_mSResLLlEeSdPt2SFjW8ow" name="Ottieni zone associate al tragitto" incoming="_z4sRELLlEeSdPt2SFjW8ow"/>
-                <node xmi:type="uml:OpaqueAction" xmi:id="_mgRecLLlEeSdPt2SFjW8ow" name="Cancella fermata e ricalcola centro zona" incoming="_MTGxgLLmEeSdPt2SFjW8ow"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_mSResLLlEeSdPt2SFjW8ow" name="Ottieni le coordinate del centro-zona di tutte le zone associate al tragitto" incoming="_z4sRELLlEeSdPt2SFjW8ow _hxcpULNdEeSxYawDU7_VNg" outgoing="_DEz84LNdEeSxYawDU7_VNg"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_mgRecLLlEeSdPt2SFjW8ow" name="Cancella fermata e ricalcola centro zona" incoming="_MTGxgLLmEeSdPt2SFjW8ow" outgoing="_hxcpULNdEeSxYawDU7_VNg"/>
                 <node xmi:type="uml:OpaqueAction" xmi:id="_muSFQLLlEeSdPt2SFjW8ow" name="Trova tutti i dipendenti che condividono la fermata del dipendente in input" incoming="_0r86ALLlEeSdPt2SFjW8ow" outgoing="_HYFB8LLmEeSdPt2SFjW8ow"/>
                 <node xmi:type="uml:DecisionNode" xmi:id="_ugmyELLlEeSdPt2SFjW8ow" name="DecisionNode1" incoming="_wvz0kLLlEeSdPt2SFjW8ow" outgoing="_z4sRELLlEeSdPt2SFjW8ow _0r86ALLlEeSdPt2SFjW8ow"/>
                 <node xmi:type="uml:DecisionNode" xmi:id="_FvxAULLmEeSdPt2SFjW8ow" name="DecisionNode2" incoming="_HYFB8LLmEeSdPt2SFjW8ow" outgoing="_MTGxgLLmEeSdPt2SFjW8ow _MtVPYLLmEeSdPt2SFjW8ow"/>
-                <node xmi:type="uml:OpaqueAction" xmi:id="_KqM6ALLmEeSdPt2SFjW8ow" name="Elimina associazione dipendente alla fermata edopo??? quando riaggirono??" incoming="_MtVPYLLmEeSdPt2SFjW8ow"/>
-                <node xmi:type="uml:OpaqueAction" xmi:id="_8yBz0LLmEeSdPt2SFjW8ow" name="Calcola centro zona più distante dalla destinazione"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_KqM6ALLmEeSdPt2SFjW8ow" name="Elimina associazione dipendente alla fermata" incoming="_MtVPYLLmEeSdPt2SFjW8ow" outgoing="_AwtW0LNeEeSxYawDU7_VNg"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_tYcMgLNbEeSxYawDU7_VNg" name="calcola il centro-zona più distante dalla destinazione" incoming="_DEz84LNdEeSxYawDU7_VNg" outgoing="_D3ev8LNdEeSxYawDU7_VNg"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_P1lgsLNdEeSxYawDU7_VNg" name="associa destinazione zona dell'ultima zona puntata a destinazione globale (azienda)" incoming="_xN_24LNdEeSxYawDU7_VNg" outgoing="_9iw0ILNdEeSxYawDU7_VNg"/>
+                <node xmi:type="uml:ActivityFinalNode" xmi:id="_6mZwsLNdEeSxYawDU7_VNg" name="ActivityFinalNode1" incoming="_9iw0ILNdEeSxYawDU7_VNg _AwtW0LNeEeSxYawDU7_VNg"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_cAX1sKFNEeStN6g4Q9A8Mg" name="Ordine">
@@ -507,6 +525,9 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
               </ownedAttribute>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_x3ReYKSsEeSycbEvaz5oHQ" name="Dettagli" visibility="private">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_GedaoLOcEeSGL4STU_tVzQ" name="pagato">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
               </ownedAttribute>
               <ownedOperation xmi:type="uml:Operation" xmi:id="_1qF90KSuEeSycbEvaz5oHQ" name="GetID">
                 <ownedParameter xmi:type="uml:Parameter" xmi:id="_Qc18sKSxEeSycbEvaz5oHQ" name="ID">
@@ -1011,6 +1032,23 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_HO3mkKFWEeStN6g4Q9A8Mg" name="Gestore Database">
         <ownedOperation xmi:type="uml:Operation" xmi:id="_IP97YKiiEeSQFOAtYXTsoQ" name="AggiornaDatiUtente"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_uKHsALOmEeSGL4STU_tVzQ" name="Tempo">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Xf26kLOmEeSGL4STU_tVzQ" annotatedElement="_EjFkALOlEeSGL4STU_tVzQ">
+          <body>Ogni giorno alle ore 24.00</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Vji-4LOmEeSGL4STU_tVzQ" name="A_tempo_ricalcola tragitti per ogni dipendente nel sistema" memberEnd="_Vji-4bOmEeSGL4STU_tVzQ _Vji-5LOmEeSGL4STU_tVzQ">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Vji-4bOmEeSGL4STU_tVzQ" name="tempo" type="_EjFkALOlEeSGL4STU_tVzQ" association="_Vji-4LOmEeSGL4STU_tVzQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vji-4rOmEeSGL4STU_tVzQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vji-47OmEeSGL4STU_tVzQ" value="1"/>
+          </ownedEnd>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Vji-5LOmEeSGL4STU_tVzQ" name="ricalcola tragitti per ogni dipendente nel sistema" type="_rLf0MLOlEeSGL4STU_tVzQ" association="_Vji-4LOmEeSGL4STU_tVzQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vji-5bOmEeSGL4STU_tVzQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vji-5rOmEeSGL4STU_tVzQ" value="1"/>
+          </ownedEnd>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_rLf0MLOlEeSGL4STU_tVzQ" name="Ricalcola Tragitti per ogni dipendente nel sistema"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_EjFkALOlEeSGL4STU_tVzQ" name="Tempo"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WDKZYLIBEeSSxuD2_JCqIQ">
