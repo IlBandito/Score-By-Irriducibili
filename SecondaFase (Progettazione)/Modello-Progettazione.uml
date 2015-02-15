@@ -252,10 +252,7 @@
                 </ownedOperation>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_TG-MEKFNEeStN6g4Q9A8Mg" name="Gestore Pagamento">
-                <ownedOperation xmi:type="uml:Operation" xmi:id="_rc2X0KTcEeS6tarWbqvfQA" name="AggiornaStatoOrdine">
-                  <ownedParameter xmi:type="uml:Parameter" xmi:id="_I1ciIKTgEeS6tarWbqvfQA" name="AggiornaStatoOrdine" type="_6ICCoKGWEeSIcc_WkGTQqQ"/>
-                </ownedOperation>
-                <ownedOperation xmi:type="uml:Operation" xmi:id="_r8mO4KTcEeS6tarWbqvfQA" name="RiceviPagamento"/>
+                <ownedOperation xmi:type="uml:Operation" xmi:id="_cdNgILR8EeS79PFjkMyyDA" name="Paga"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_-lC68KFeEeStN6g4Q9A8Mg" memberEnd="_-lC68aFeEeStN6g4Q9A8Mg _-lBs0KFeEeStN6g4Q9A8Mg" navigableOwnedEnd="_-lC68aFeEeStN6g4Q9A8Mg">
                 <ownedEnd xmi:type="uml:Property" xmi:id="_-lC68aFeEeStN6g4Q9A8Mg" name="parte" type="_PTodUKFNEeStN6g4Q9A8Mg" aggregation="composite" association="_-lC68KFeEeStN6g4Q9A8Mg">
@@ -526,11 +523,14 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
               <ownedAttribute xmi:type="uml:Property" xmi:id="_x3ReYKSsEeSycbEvaz5oHQ" name="Dettagli" visibility="private">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedAttribute>
-              <ownedAttribute xmi:type="uml:Property" xmi:id="_GedaoLOcEeSGL4STU_tVzQ" name="pagato">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_GedaoLOcEeSGL4STU_tVzQ" name="pagato" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_x4Y6MLR6EeS79PFjkMyyDA" name="pagato" visibility="private">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
               </ownedAttribute>
               <ownedOperation xmi:type="uml:Operation" xmi:id="_1qF90KSuEeSycbEvaz5oHQ" name="GetID">
-                <ownedParameter xmi:type="uml:Parameter" xmi:id="_Qc18sKSxEeSycbEvaz5oHQ" name="ID">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_Qc18sKSxEeSycbEvaz5oHQ" name="ID" direction="return">
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                 </ownedParameter>
               </ownedOperation>
@@ -570,14 +570,27 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:type="uml:Operation" xmi:id="_35KxYKcHEeSqTMd2-QSJag" name="create"/>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_1-fM4LR6EeS79PFjkMyyDA" name="IsPagato">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_Hol3ILR7EeS79PFjkMyyDA" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_4NOVULR6EeS79PFjkMyyDA" name="SetPagato ">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_TgXWYLR7EeS79PFjkMyyDA">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_IecewKTdEeS6tarWbqvfQA" name="AggiungiBiglietto">
+                <ownedParameter xmi:type="uml:Parameter" xmi:id="_J1BdgKcJEeSqTMd2-QSJag" type="_z0_W4KFMEeStN6g4Q9A8Mg"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_6ICCoKGWEeSIcc_WkGTQqQ" name="Gestore Ordine">
               <ownedOperation xmi:type="uml:Operation" xmi:id="_H2VV4KTdEeS6tarWbqvfQA" name="AggiungiOrdine ">
                 <ownedParameter xmi:type="uml:Parameter" xmi:id="_JWNFcKcHEeSqTMd2-QSJag" type="__7eF4KFfEeSLz82iDeDKWA"/>
               </ownedOperation>
-              <ownedOperation xmi:type="uml:Operation" xmi:id="_IecewKTdEeS6tarWbqvfQA" name="AggiungiBiglietto">
-                <ownedParameter xmi:type="uml:Parameter" xmi:id="_J1BdgKcJEeSqTMd2-QSJag" type="_cAX1sKFNEeStN6g4Q9A8Mg"/>
-              </ownedOperation>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_M4RLkLR8EeS79PFjkMyyDA" name="AcquistaBiglietto"/>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_NI_IILR8EeS79PFjkMyyDA" name="GeneraBiglietti"/>
+              <ownedOperation xmi:type="uml:Operation" xmi:id="_WgSOsLR8EeS79PFjkMyyDA" name="SalvaOrdine"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="__7eF4KFfEeSLz82iDeDKWA" name="Dipendente">
               <generalization xmi:type="uml:Generalization" xmi:id="_DKq9EKZTEeSMn79U-Mrb6g" general="_HeMhEJt5EeS5WOy4Y_NoMw"/>
@@ -691,6 +704,7 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
             <packagedElement xmi:type="uml:Usage" xmi:id="_-qF4kKGWEeSIcc_WkGTQqQ" client="_6ICCoKGWEeSIcc_WkGTQqQ" supplier="__7eF4KFfEeSLz82iDeDKWA"/>
             <packagedElement xmi:type="uml:Usage" xmi:id="__WJtUKGWEeSIcc_WkGTQqQ" client="_6ICCoKGWEeSIcc_WkGTQqQ" supplier="_cAX1sKFNEeStN6g4Q9A8Mg"/>
             <packagedElement xmi:type="uml:Actor" xmi:id="_8BVoAKcEEeSqTMd2-QSJag" name="Dipendente"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_qrPsILR8EeS79PFjkMyyDA" client="_6ICCoKGWEeSIcc_WkGTQqQ" supplier="_cAX1sKFNEeStN6g4Q9A8Mg"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_tVuS0KCbEeSGS-XZm87odQ" name="Autista">
             <packagedElement xmi:type="uml:Class" xmi:id="_QZMpAJuAEeS5WOy4Y_NoMw" name="Autista">
@@ -792,6 +806,11 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
             <ownedOperation xmi:type="uml:Operation" xmi:id="_1f3KUKTbEeS6tarWbqvfQA" name="CaricaDipendente"/>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_3A7UcKTbEeS6tarWbqvfQA" name="AssegnaAutista"/>
           </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_EWj7ILR6EeS79PFjkMyyDA" name="Gestore Account">
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Uw94ELR6EeS79PFjkMyyDA" name="Get_utenteCorrente "/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_YqFesLR6EeS79PFjkMyyDA" client="_EWj7ILR6EeS79PFjkMyyDA" supplier="__7eF4KFfEeSLz82iDeDKWA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_Zjyt4LR6EeS79PFjkMyyDA" client="_EWj7ILR6EeS79PFjkMyyDA" supplier="_QZMpAJuAEeS5WOy4Y_NoMw"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_HeMhEJt5EeS5WOy4Y_NoMw" name="Account Web">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_AKfNcJt6EeS5WOy4Y_NoMw" name="password" visibility="private">
@@ -852,10 +871,6 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_lrpMEKGYEeSIcc_WkGTQqQ" name="Tragitto ">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_KiwKYKcCEeSqTMd2-QSJag">
-          <body>Pagina 339&#xD;
-</body>
-        </ownedComment>
         <packagedElement xmi:type="uml:Class" xmi:id="_LSweUKFMEeStN6g4Q9A8Mg" name="Tragitto">
           <ownedAttribute xmi:type="uml:Property" xmi:id="__sxcQKV1EeSy2dZjf6d_xA" name="ID" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -978,9 +993,8 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_4LBjAKFMEeStN6g4Q9A8Mg" name="Gestore Tragitto">
           <ownedOperation xmi:type="uml:Operation" xmi:id="_TXdToKV1EeSy2dZjf6d_xA" name="AggiornamentoTragitto"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_USR9IKV1EeSy2dZjf6d_xA" name="RimuoviFermata"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_VGKRIKV1EeSy2dZjf6d_xA" name="IgnoraFermata"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_8Xq3gK1eEeSr0fYoNy-Ynw" name="CreaFermata"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_B8RioLR9EeS79PFjkMyyDA" name="VisualizzaTragitto"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Usage" xmi:id="_xxsocKFXEeStN6g4Q9A8Mg" client="_tBOHkKFNEeStN6g4Q9A8Mg" supplier="_9LNp0JuCEeS5WOy4Y_NoMw"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_N7BRUKFdEeStN6g4Q9A8Mg" client="_tBOHkKFNEeStN6g4Q9A8Mg" supplier="_QZMpAJuAEeS5WOy4Y_NoMw"/>
@@ -1017,7 +1031,7 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_heuMUqcBEeSqTMd2-QSJag" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_heuMU6cBEeSqTMd2-QSJag" value="1"/>
           </ownedEnd>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_helCYKcBEeSqTMd2-QSJag" name="parte" type="_hR52MKFMEeStN6g4Q9A8Mg" aggregation="composite" association="_heuMUKcBEeSqTMd2-QSJag">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_helCYKcBEeSqTMd2-QSJag" name="parte" type="_hR52MKFMEeStN6g4Q9A8Mg" aggregation="shared" association="_heuMUKcBEeSqTMd2-QSJag">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_helCYacBEeSqTMd2-QSJag" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_helCYqcBEeSqTMd2-QSJag" value="8"/>
           </ownedEnd>
