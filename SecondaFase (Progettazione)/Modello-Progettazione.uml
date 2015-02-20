@@ -662,7 +662,7 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
               <ownedOperation xmi:type="uml:Operation" xmi:id="_eUBOkLH8EeSSxuD2_JCqIQ" name="create"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_oShL4KGREeSIcc_WkGTQqQ" memberEnd="_oShL4aGREeSIcc_WkGTQqQ _oSVlsKGREeSIcc_WkGTQqQ" navigableOwnedEnd="_oShL4aGREeSIcc_WkGTQqQ">
-              <ownedEnd xmi:type="uml:Property" xmi:id="_oShL4aGREeSIcc_WkGTQqQ" name="parte" type="__7eF4KFfEeSLz82iDeDKWA" aggregation="composite" association="_oShL4KGREeSIcc_WkGTQqQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_oShL4aGREeSIcc_WkGTQqQ" name="parte" type="__7eF4KFfEeSLz82iDeDKWA" aggregation="shared" association="_oShL4KGREeSIcc_WkGTQqQ">
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oShL4qGREeSIcc_WkGTQqQ" value="1"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oShL46GREeSIcc_WkGTQqQ" value="*"/>
               </ownedEnd>
@@ -692,7 +692,7 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
               </ownedEnd>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_qVz5UKGREeSIcc_WkGTQqQ" memberEnd="_qVz5UaGREeSIcc_WkGTQqQ _qVvn4KGREeSIcc_WkGTQqQ" navigableOwnedEnd="_qVz5UaGREeSIcc_WkGTQqQ">
-              <ownedEnd xmi:type="uml:Property" xmi:id="_qVz5UaGREeSIcc_WkGTQqQ" name="parte" type="__7eF4KFfEeSLz82iDeDKWA" aggregation="composite" association="_qVz5UKGREeSIcc_WkGTQqQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_qVz5UaGREeSIcc_WkGTQqQ" name="parte" type="__7eF4KFfEeSLz82iDeDKWA" aggregation="shared" association="_qVz5UKGREeSIcc_WkGTQqQ">
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qVz5UqGREeSIcc_WkGTQqQ" value="1"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qVz5U6GREeSIcc_WkGTQqQ" value="*"/>
               </ownedEnd>
@@ -811,6 +811,16 @@ Per far questo sfrutterà la distanza tra centro zona e destinazione finale trag
           </packagedElement>
           <packagedElement xmi:type="uml:Usage" xmi:id="_YqFesLR6EeS79PFjkMyyDA" client="_EWj7ILR6EeS79PFjkMyyDA" supplier="__7eF4KFfEeSLz82iDeDKWA"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_Zjyt4LR6EeS79PFjkMyyDA" client="_EWj7ILR6EeS79PFjkMyyDA" supplier="_QZMpAJuAEeS5WOy4Y_NoMw"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Q_NOYLjzEeSXA7MK8y6PHQ" memberEnd="_Q_NOYbjzEeSXA7MK8y6PHQ _Q_EEcLjzEeSXA7MK8y6PHQ" navigableOwnedEnd="_Q_EEcLjzEeSXA7MK8y6PHQ">
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Q_NOYbjzEeSXA7MK8y6PHQ" name="azienda" type="_MMuzQKFMEeStN6g4Q9A8Mg" association="_Q_NOYLjzEeSXA7MK8y6PHQ">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q_NOYrjzEeSXA7MK8y6PHQ" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q_NOY7jzEeSXA7MK8y6PHQ" value="1"/>
+            </ownedEnd>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Q_EEcLjzEeSXA7MK8y6PHQ" name="fermata" type="_hR52MKFMEeStN6g4Q9A8Mg" aggregation="shared" association="_Q_NOYLjzEeSXA7MK8y6PHQ">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q_EEcbjzEeSXA7MK8y6PHQ" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q_EEcrjzEeSXA7MK8y6PHQ" value="1"/>
+            </ownedEnd>
+          </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_HeMhEJt5EeS5WOy4Y_NoMw" name="Account Web">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_AKfNcJt6EeS5WOy4Y_NoMw" name="password" visibility="private">

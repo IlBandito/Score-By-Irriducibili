@@ -937,6 +937,31 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__WRpIKGWEeSIcc_WkGTQqQ" id="(1.0,0.5982142857142857)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__WRpIaGWEeSIcc_WkGTQqQ" id="(0.649025069637883,0.01098901098901099)"/>
     </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_RAGmQLjzEeSXA7MK8y6PHQ" type="4001" source="_XKkY0KFXEeStN6g4Q9A8Mg" target="_Xllg4KFXEeStN6g4Q9A8Mg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_RAGmQ7jzEeSXA7MK8y6PHQ" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAGmRLjzEeSXA7MK8y6PHQ" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RAGmRbjzEeSXA7MK8y6PHQ" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAGmRrjzEeSXA7MK8y6PHQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RAGmR7jzEeSXA7MK8y6PHQ" visible="false" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAGmSLjzEeSXA7MK8y6PHQ" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RAGmSbjzEeSXA7MK8y6PHQ" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAGmSrjzEeSXA7MK8y6PHQ" x="-3" y="55"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RAGmS7jzEeSXA7MK8y6PHQ" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAGmTLjzEeSXA7MK8y6PHQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RAGmTbjzEeSXA7MK8y6PHQ" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAGmTrjzEeSXA7MK8y6PHQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_RAGmQbjzEeSXA7MK8y6PHQ"/>
+      <element xmi:type="uml:Association" href="Modello-Progettazione.uml#_Q_NOYLjzEeSXA7MK8y6PHQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RAGmQrjzEeSXA7MK8y6PHQ" points="[-5, 6, 0, -95]$[-6, 95, -1, -6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RAjSMLjzEeSXA7MK8y6PHQ" id="(0.652046783625731,0.9802631578947368)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RAjSMbjzEeSXA7MK8y6PHQ" id="(0.48466257668711654,0.018575851393188854)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_LhUrgKFcEeStN6g4Q9A8Mg" type="PapyrusUMLClassDiagram" name="ClassDiagram Autista" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_L6YEsKFcEeStN6g4Q9A8Mg" type="2008">
